@@ -5,11 +5,11 @@
   </a>
 
   <p align="center">
-    <img alt="GitHub" src="https://img.shields.io/github/license/dakshkhetan/bvp-encore-website" />
+    <img alt="GitHub" src="https://img.shields.io/github/license/dakshkhetan/tedxbvcoe-website" />
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/dakshkhetan?style=social" />
   </p>
 
-  <h3 align="center">TEDxBVCOE 2021</h3>
+  <h3 align="center">TEDxBVCOE'21</h3>
 
   <p align="center">
     <a href="!#">Checkout the  official website</a>
