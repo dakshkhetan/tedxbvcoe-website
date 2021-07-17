@@ -1,0 +1,46 @@
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+import Fade from 'react-reveal/Fade';
+import { animateScroll as scroll } from 'react-scroll';
+
+import './Speakers.styles.scss';
+
+const Speakers = () => {
+  useEffect(() => {
+    scroll.scrollToTop();
+  }, []);
+
+  const history = useHistory();
+
+  const onClickHandler = () => {
+    // ReactGA.event({
+    //   category: 'Button Clicks',
+    //   action: "'Checkout-Events' Button Click",
+    //   label: "User clicked on 'Checkout All Events' button"
+    // });
+    history.push('/speakers');
+  };
+
+  return (
+    <section id='speakers' className='section section-speakers'>
+      <Fade bottom>
+        <h1 className='section-heading'>Speakers</h1>
+      </Fade>
+
+      <div className='section-content'>
+        <div>[WIP]</div>
+
+        <Fade bottom delay={350}>
+          <div className='btn-container'>
+            <span className='btn-link' onClick={onClickHandler}>
+              Checkout all speakers
+            </span>
+          </div>
+        </Fade>
+      </div>
+    </section>
+  );
+};
+
+export default Speakers;

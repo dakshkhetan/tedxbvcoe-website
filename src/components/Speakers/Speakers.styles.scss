@@ -1,0 +1,59 @@
+.section-speakers {
+  height: auto !important;
+  min-height: 760px;
+  color: #111;
+  padding: 0 5%;
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    padding-top: 30px;
+    margin-top: 0;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    .btn-container {
+      margin-top: 40px;
+
+      .btn-link {
+        background-color: #131313;
+        border: 3px solid #fff;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #fff;
+        padding: 8px 25px;
+        transition: all ease-in-out 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #000;
+          color: #fff;
+          transition: all ease-in-out 0.2s;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+    min-height: unset;
+
+    .section-content {
+      padding-bottom: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      padding-top: 50px;
+      padding-bottom: 80px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.App {
+  .section {
+    height: 760px;
+    color: #fff;
+    padding: 0 5%;
+
+    &:nth-child(even) {
+      background-color: #1d1d1d;
+    }
+
+    &:nth-child(odd) {
+      background-color: #000;
+    }
+
+    .section-heading {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #ff4929;
+      padding-top: 40px;
+      margin-top: 0;
+    }
+
+    @media only screen and (max-width: 425px) {
+      .section-heading {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}

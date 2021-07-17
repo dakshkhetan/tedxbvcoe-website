@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

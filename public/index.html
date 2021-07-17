@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="theme-color" content="#ededed" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Official TEDxBVCOE 2021 Website" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="canonical" href="https://encore-fest.now.sh" />
+    <meta name="url" content="https://encore-fest.now.sh" />
+    <meta name="description" content="TEDxBVCOE 2021" />
+    <meta name="image" content="https://encore-fest.now.sh/logo.png" />
+
+    <meta property="og:site_name" content="Official TEDxBVCOE 2021 Website" />
+    <meta property="og:url" content="https://encore-fest.now.sh" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TEDxBVCOE 2021" />
+    <meta property="og:description" content="TEDxBVCOE 2021" />
+    <meta property="og:image" content="https://encore-fest.now.sh/logo.png" />
+
+    <meta name="twitter:creator" content="@dakshkhetan" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@BvpEncore" />
+    <meta name="twitter:title" content="TEDxBVCOE 2021" />
+    <meta name="twitter:description" content="TEDxBVCOE 2021" />
+    <meta name="twitter:image" content="https://encore-fest.now.sh/logo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="google-site-verification"
+      content="USA5XoxN1Z5gQJGHGBOA4cWs320qDegbzaaXh-AZBpE"
+    />
+
+    <title>TEDxBVCOE 2021</title>
+
+    <style>
+      #initial-loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        transition: opacity 0.6s;
+        z-index: 1;
+      }
+
+      #initial-loading[data-is-hide='true'] {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      #initial-loading .spinner {
+        display: flex;
+      }
+
+      #initial-loading .bounce {
+        width: 18px;
+        height: 18px;
+        margin: 0 3px;
+        background-color: #999999;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+      }
+
+      #initial-loading .bounce:nth-child(1) {
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+      }
+
+      #initial-loading .bounce:nth-child(2) {
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+      }
+
+      @-webkit-keyframes sk-bouncedelay {
+        0%,
+        80%,
+        100% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+
+        40% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+
+      @keyframes sk-bouncedelay {
+        0%,
+        80%,
+        100% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+
+        40% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div id="initial-loading">
+        <div class="spinner">
+          <div class="bounce"></div>
+          <div class="bounce"></div>
+          <div class="bounce"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

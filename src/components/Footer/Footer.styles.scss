@@ -1,0 +1,136 @@
+.footer {
+  background-color: #393939;
+  color: #F5F5F5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+
+  a {
+    color: #F5F5F5;
+    font-weight: 500;
+
+    &:hover {
+      color: #86BAFF;
+    }
+  }
+
+  .heading {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+    margin-top: -10px;
+
+    &.credit {
+      font-size: 0.9rem;
+      color: #848484;
+      text-transform: capitalize;
+      margin: 10px 0 -5px;
+      position: relative;
+      margin-left: -100px;
+
+      .credit-link {
+        color: #a3a3a3;
+        font-weight: 500;
+        cursor: pointer;
+        position: absolute;
+        right: -105px;
+        bottom: -1px;
+        animation: jump 2.5s infinite;
+
+        @keyframes jump {
+          0% {
+            opacity: 0.6;
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(-2px);
+          }
+        }
+
+        &:hover {
+          color: #F5F5F5;
+        }
+      }
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 15px 0 20px 0;
+
+    .social-link {
+      margin: 0 15px;
+    }
+  }
+
+  .arrow-container {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 1px;
+    cursor: pointer;
+  }
+
+  .underline {
+    font-weight: 400;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      top: 95%;
+      left: 0;
+      border-bottom: 2.5px solid #dd6b71;
+    }
+  }
+
+  @media only screen and (max-width : 425px) {
+    padding: 20px 10px;
+
+    .heading {
+      font-size: 1rem;
+    }
+
+    .sub-heading {
+      font-size: 1rem;
+      margin-top: -10px;
+
+      &.credit {
+        font-size: 0.8rem;
+
+        .credit-link {
+          right: -94px;
+          bottom: -2px;
+        }
+      }
+    }
+
+    .social-icons {
+      font-size: 2rem;
+      margin: 8px 0 10px 0;
+
+      .social-link {
+        margin: 0 10px;
+      }
+    }
+
+    .arrow-container {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.header {
+  height: 70px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 6%;
+  z-index: 1000;
+
+  .logo-container {
+    height: 100%;
+    width: 55px;
+    padding-top: 5px;
+    text-align: center;
+
+    img.logo {
+      width: 100%;
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+
+  .sidedrawer-btn {
+    display: none;
+  }
+
+  .options {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+
+    .option {
+      padding: 10px 15px;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      &.faq {
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        &.hover {
+          &:before,
+          &:after {
+            width: 50%;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .hover {
+      position: relative;
+      transition: all 0.2s ease-in-out;
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        width: 0px;
+        height: 5px;
+        margin: 2px 0 0;
+        transition: all 0.2s ease-in-out;
+        transition-duration: 0.5s;
+        opacity: 0;
+        background-color: darken(#ff4929, 5%);
+      }
+
+      &:before {
+        left: 40%;
+      }
+
+      &:after {
+        right: 40%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .options {
+      display: none;
+    }
+
+    .sidedrawer-btn {
+      width: auto;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-weight: bold;
+      margin-right: 10px;
+
+      .toggle {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

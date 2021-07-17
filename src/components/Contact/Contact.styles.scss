@@ -1,0 +1,157 @@
+.section-contact {
+  height: 700px !important;
+  background-color: #000;
+  color: #fff;
+  padding: 0 5%;
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #ff4929;
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .section-content {
+    .info {
+      width: 650px;
+      margin-top: 45px;
+
+      h2 {
+        font-size: 1.6rem;
+        color: #ff4929;
+        font-weight: bold;
+      }
+
+      .text {
+        font-size: 1.2rem !important;
+      }
+
+      .text-2 {
+        margin-top: -10px;
+
+        a {
+          color: #fff;
+        }
+      }
+
+      .mail-btn {
+        margin-top: 55px;
+
+        a {
+          width: 150px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.24rem;
+          line-height: 1.55;
+          padding: 7px 12px;
+          border: 2px solid #eee;
+          border-radius: 40px;
+          color: #fff;
+          cursor: pointer;
+
+          &:focus {
+            outline: none;
+          }
+
+          &:hover {
+            background-color: #fff;
+            color: #000;
+          }
+        }
+      }
+
+      .underline {
+        font-weight: 400;
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          top: 95%;
+          left: 0;
+          border-bottom: 3px solid #e0575d;
+        }
+      }
+    }
+
+    .image-container {
+      height: 280px;
+      position: relative;
+
+      .illustration {
+        width: 800px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+
+    .section-content {
+      padding-bottom: 10px;
+
+      .info {
+        width: 70%;
+        margin-top: 0;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        .text {
+          font-size: 1.1rem !important;
+        }
+
+        .text-2 {
+          margin-top: -8px;
+        }
+
+        .mail-btn {
+          margin-top: 55px;
+
+          a {
+            font-size: 1.1rem;
+          }
+        }
+      }
+
+      .image-container {
+        .illustration {
+          width: 550px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      padding-bottom: 20px;
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .info {
+          width: 60%;
+          text-align: center;
+          margin-top: -10px;
+
+          h2 {
+            font-size: 1.4rem;
+          }
+        }
+      }
+
+      .image-container {
+        .illustration {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
