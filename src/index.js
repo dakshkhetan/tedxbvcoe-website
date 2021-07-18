@@ -23,7 +23,7 @@ import './index.scss';
 import smoothscroll from 'smoothscroll-polyfill';
 smoothscroll.polyfill();
 
-ReactGA.initialize('279735664');
+ReactGA.initialize('UA-202539038-1');
 
 const Root = () => (
   <Router>

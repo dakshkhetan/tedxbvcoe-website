@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 
 import { ReactComponent as Divider } from '../../assets/illustrations/section-divider.svg';
@@ -20,11 +20,11 @@ const Event = ({ event }) => {
 
   const onClickHandler = (name, registrationLink) => (e) => {
     e.preventDefault();
-    ReactGA.event({
-      category: "'Event Registration' Clicks",
-      action: `'${name}' button click`,
-      label: `'${name}' registration button clicked`
-    });
+    // ReactGA.event({
+    //   category: "'Event Registration' Clicks",
+    //   action: `'${name}' button click`,
+    //   label: `'${name}' registration button clicked`
+    // });
     window.open(registrationLink, '_blank');
   };
 
