@@ -1,107 +1,93 @@
-import React from 'react';
-// import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTwitter,
+  faLinkedinIn,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons';
 
-import { ReactComponent as Divider } from '../../assets/illustrations/section-divider.svg';
+import DisplayImagePlaceholder from '../../assets/team/placeholder.png';
+// import { ReactComponent as Divider } from '../../assets/illustrations/section-divider.svg';
 
-const Event = ({ event }) => {
-  const {
-    code,
-    name,
-    date,
-    team,
-    prize,
-    registrationFee,
-    organisingSociety,
-    registrationLink,
-    poster,
-    description
-  } = event;
-
-  const onClickHandler = (name, registrationLink) => (e) => {
-    e.preventDefault();
-    // ReactGA.event({
-    //   category: "'Event Registration' Clicks",
-    //   action: `'${name}' button click`,
-    //   label: `'${name}' registration button clicked`
-    // });
-    window.open(registrationLink, '_blank');
-  };
+const Speaker = ({ speaker }) => {
+  const { id, name, profession, socials, bio, image } = speaker;
 
   return (
-    <React.Fragment>
-      <div id={code} className={`event-container ${code}`}>
-        <Fade delay={250}>
-          <div className='poster'>
-            <img src={poster} alt='poster' />
+    <>
+      <div id={id} className={`speaker-container ${id}`}>
+        <Fade delay={100}>
+          <div className='display-pic'>
+            {image ? (
+              <img src={image} alt='speaker profile pic' />
+            ) : (
+              <img src={DisplayImagePlaceholder} alt='speaker profile pic' />
+            )}
           </div>
         </Fade>
-        <div className='info'>
-          <Fade bottom delay={200}>
-            <h2 className='event-name'>{name}</h2>
-          </Fade>
-          <Fade bottom delay={200}>
-            <div className='description'>{description}</div>
-          </Fade>
-          <Fade bottom delay={400}>
-            <p>
-              <span>Date: </span>
-              <span className='underline'>{date}</span>
-            </p>
-          </Fade>
-          {organisingSociety && (
-            <Fade bottom delay={500}>
-              <p>
-                <span>Organising Society: </span>
-                <span className='underline'>{organisingSociety}</span>
-              </p>
-            </Fade>
-          )}
-          <Fade bottom delay={400}>
-            <p>
-              <span>Team Size: </span>
-              <span className='underline'>{team}</span>
-            </p>
-          </Fade>
-          {prize && (
-            <Fade bottom delay={400}>
-              <p>
-                <span>Prize Money: </span>
-                <span className='underline'>{prize}</span>
-              </p>
-            </Fade>
-          )}
-          <Fade bottom delay={400}>
-            <p>
-              <span>Registration Fee: </span>
-              <span className='underline'>{registrationFee}</span>
-            </p>
-          </Fade>
-          <Fade bottom delay={600}>
-            <p>
-              <span>To Register: </span>
-              {registrationLink ? (
-                <span
-                  className='register-link'
-                  onClick={onClickHandler(name, registrationLink)}
+
+        <Fade delay={200}>
+          <span className='name'>{name}</span>{' '}
+        </Fade>
+
+        <Fade delay={250}>
+          <span className='profession'>{profession}</span>{' '}
+        </Fade>
+
+        <Fade delay={300}>
+          {socials && (
+            <div className='social-icons'>
+              {socials.linkedInURL && (
+                <a
+                  href={socials.linkedInURL}
+                  className='social-link'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  Click here
-                </span>
-              ) : (
-                <span className='register-link'>Opening Soon!</span>
+                  <FontAwesomeIcon
+                    icon={faLinkedinIn}
+                    className='icon linkedin'
+                  />
+                </a>
               )}
-            </p>
-          </Fade>
-        </div>
+              {socials.instagramURL && (
+                <a
+                  href={socials.instagramURL}
+                  className='social-link'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className='icon instagram'
+                  />
+                </a>
+              )}
+              {socials.twitterURL && (
+                <a
+                  href={socials.twitterURL}
+                  className='social-link'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
+                </a>
+              )}
+            </div>
+          )}
+        </Fade>
+
+        <Fade delay={300}>
+          <div className='bio'>{bio}</div>
+        </Fade>
       </div>
 
-      <Fade delay={150}>
+      {/* <Fade delay={150}>
         <div className='divider-container'>
           <Divider className='divider' />
         </div>
-      </Fade>
-    </React.Fragment>
+      </Fade> */}
+    </>
   );
 };
 
-export default Event;
+export default Speaker;

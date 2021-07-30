@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-// import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
+
+import { speakersCollage } from '../../data/speakers.data';
 
 import './Speakers.styles.scss';
 
@@ -14,11 +16,11 @@ const Speakers = () => {
   const history = useHistory();
 
   const onClickHandler = () => {
-    // ReactGA.event({
-    //   category: 'Button Clicks',
-    //   action: "'Checkout-Events' Button Click",
-    //   label: "User clicked on 'Checkout All Events' button"
-    // });
+    ReactGA.event({
+      category: 'Button Clicks',
+      action: "'Checkout-Speakers' Button Click",
+      label: "User clicked on 'Checkout All Speakers' button"
+    });
     history.push('/speakers');
   };
 
@@ -29,7 +31,16 @@ const Speakers = () => {
       </Fade>
 
       <div className='section-content'>
-        <div>[WIP]</div>
+        <div className='container'>
+          {speakersCollage.map((speaker) => (
+            <img
+              key={speaker.position}
+              className={`img-${speaker.id}`}
+              src={speaker.image}
+              alt='speaker pic'
+            />
+          ))}
+        </div>
 
         <Fade bottom delay={350}>
           <div className='btn-container'>

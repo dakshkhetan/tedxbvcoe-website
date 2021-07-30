@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactGA from 'react-ga';
 import {
@@ -18,7 +17,7 @@ import FAQs from './components/FAQs/FAQs.component';
 import Contact from './components/Contact/Contact.component';
 import Footer from './components/Footer/Footer.component';
 
-import './index.scss';
+import './global.scss';
 
 import smoothscroll from 'smoothscroll-polyfill';
 smoothscroll.polyfill();
