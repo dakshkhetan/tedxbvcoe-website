@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-// import ReactGA from 'react-ga';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -11,12 +11,12 @@ const SpeakerForm = () => {
   }, []);
 
   const onClickHandler = () => {
-    // ReactGA.event({
-    //   category: 'Button Clicks',
-    //   action: "'Checkout-Events' Button Click",
-    //   label: "User clicked on 'Checkout All Events' button"
-    // });
-    // history.push('/events');
+    ReactGA.event({
+      category: 'Button Clicks',
+      action: "'Speaker-Interest-Form' Button Click",
+      label: "User clicked on 'Speaker Interest Form' button"
+    });
+    window.open('https://bit.ly/tedx-speaker-form', '_blank');
   };
 
   return (
