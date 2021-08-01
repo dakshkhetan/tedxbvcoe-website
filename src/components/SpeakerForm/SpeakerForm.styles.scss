@@ -27,6 +27,13 @@
       }
     }
 
+    .text {
+      width: 300px;
+      font-size: 1.1rem;
+      font-style: italic;
+      text-align: center;
+    }
+
     .btn-container {
       margin-top: 50px;
 
@@ -90,6 +97,11 @@
 
       h2 {
         font-size: 1.6rem;
+      }
+
+      .text {
+        width: 70%;
+        font-size: 1rem;
       }
 
       .btn-container {

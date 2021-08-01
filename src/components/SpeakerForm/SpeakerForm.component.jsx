@@ -31,6 +31,10 @@ const SpeakerForm = () => {
           <span>speaker</span> ?
         </h2>
 
+        <p className='text'>
+          Join us here at TEDxBVCOE to get an opportunity for betterment.
+        </p>
+
         <Fade bottom delay={350}>
           <div className='btn-container'>
             <span className='btn-link' onClick={onClickHandler}>
