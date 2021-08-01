@@ -28,7 +28,7 @@ const AboutBVCOE = () => (
             faculty. The college is affiliated with Guru Gobind Singh
             Indraprastha University (GGSIPU), New Delhi, and is considered one
             of the leading institutes for engineering in the city. Currently,
-            BVCOE offers various courses like B Tech, BBA, BCA, MBA, MCA. The
+            BVCOE offers various courses like B.Tech, BBA, BCA, MBA, MCA. The
             college consists of many technical and non-technical societies like
             BVPIEEE, ISTE, ACM, CSI, Enactus, Eduminerva, DAS, EDC, Zaahir, etc.
             Students working/volunteering under these societies are very active
