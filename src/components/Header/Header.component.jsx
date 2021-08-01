@@ -60,15 +60,17 @@ class Header extends React.Component {
     );
   };
 
+  // TODO: unhide sections
+
   headerOptions = (className) => (
     <>
       <span className={`${className} hover`} onClick={() => this.scrollToTop()}>
         Home
       </span>
-      <Link to='/speakers' className={`${className} hover`}>
+      {/* <Link to='/speakers' className={`${className} hover`}>
         Speakers
-      </Link>
-      {this.headerOption('sponsors')}
+      </Link> */}
+      {/* {this.headerOption('sponsors')} */}
       {this.headerOption('faq')}
       {this.headerOption('team')}
       {this.headerOption('contact')}

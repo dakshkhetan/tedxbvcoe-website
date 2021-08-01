@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 
 import Hero from '../../components/Hero/Hero.component';
@@ -13,6 +13,8 @@ import Contact from '../../components/Contact/Contact.component';
 
 import './Home.styles.scss';
 
+// TODO: unhide sections & swap team & contact components
+
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,12 +25,12 @@ const Home = () => {
     <div className='App'>
       <Hero />
       <AboutBVCOE />
-      <Sponsors />
-      <Speakers />
+      {/* <Sponsors /> */}
+      {/* <Speakers /> */}
       <SpeakerForm />
-      <SponsorUs />
-      <FAQs />
+      {/* <SponsorUs /> */}
       <Team />
+      <FAQs />
       <Contact />
     </div>
   );

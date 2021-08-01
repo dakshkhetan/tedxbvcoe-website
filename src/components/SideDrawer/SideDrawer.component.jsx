@@ -6,6 +6,8 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 import './SideDrawer.styles.scss';
 
+// TODO: unhide sections
+
 class SideDrawer extends React.Component {
   render() {
     const { show, scrollToTop } = this.props;
@@ -31,12 +33,12 @@ class SideDrawer extends React.Component {
           <span className='option' onClick={() => scrollToTop()}>
             Home
           </span>
-          <span className='option' onClick={() => onClickHandler('speakers')}>
+          {/* <span className='option' onClick={() => onClickHandler('speakers')}>
             Speakers
-          </span>
-          <span className='option' onClick={() => onClickHandler('sponsors')}>
+          </span> */}
+          {/* <span className='option' onClick={() => onClickHandler('sponsors')}>
             Sponsors
-          </span>
+          </span> */}
           <span className='option' onClick={() => onClickHandler('faq')}>
             FAQ
           </span>
