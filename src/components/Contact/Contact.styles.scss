@@ -73,10 +73,22 @@
           border-bottom: 3px solid #e0575d;
         }
       }
+
+      .separator {
+        width: 80px;
+        height: 5px;
+        background-color: #e0575d;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      .mb-25px {
+        margin-bottom: 25px;
+      }
     }
 
     .image-container {
-      height: 280px;
+      height: 160px;
       position: relative;
 
       .illustration {
@@ -147,7 +159,13 @@
         }
       }
 
+      .separator {
+        margin: 0 auto 20px;
+      }
+
       .image-container {
+        height: 190px;
+
         .illustration {
           width: 100%;
         }

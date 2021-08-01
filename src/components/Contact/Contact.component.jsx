@@ -12,7 +12,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <React.Fragment>
+    <>
       <section id='contact' className='section section-contact'>
         <Fade bottom>
           <h1 className='section-heading'>Contact</h1>
@@ -22,21 +22,42 @@ const Contact = () => {
           <div className='info-container'>
             <div className='info'>
               <Fade bottom delay={300}>
-                <p className='text'>For any query, contact: </p>
+                <p className='text mb-25px'>For any query, contact: </p>
               </Fade>
+
               <Fade bottom delay={400}>
                 <p className='text text-2'>
-                  <span className='underline'>Akshat Jain</span>
+                  <span className='underline_'>Akshat Jain</span>
                   <br />
-                  <span className='underline'>
+                  <span className='underline_'>
                     <a href='tel:+918470034433'>+91-8470034433</a>
+                  </span>
+                </p>
+
+                <div className='separator' />
+
+                <p className='text text-2'>
+                  <span className='underline_'>Chaitanya Chhabra</span>
+                  <br />
+                  <span className='underline_'>
+                    <a href='tel:+918470034433'>+91-9910068761</a>
+                  </span>
+                </p>
+
+                <div className='separator' />
+
+                <p className='text text-2'>
+                  <span className='underline_'>Sarthak Sethi</span>
+                  <br />
+                  <span className='underline_'>
+                    <a href='tel:+918470034433'>+91-9968571394</a>
                   </span>
                 </p>
               </Fade>
 
               <Fade bottom delay={500}>
                 <div className='mail-btn'>
-                  <a href='mailto:tedx.bvcoe@gmail.com'>Write To Us</a>
+                  <a href='mailto:bvcoetedx@gmail.com'>Write To Us</a>
                 </div>
               </Fade>
             </div>
@@ -51,7 +72,7 @@ const Contact = () => {
           </Fade>
         </div>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 
