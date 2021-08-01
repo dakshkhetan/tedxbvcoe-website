@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
@@ -31,16 +31,18 @@ const Speakers = () => {
       </Fade>
 
       <div className='section-content'>
-        <div className='container'>
-          {speakersCollage.map((speaker) => (
-            <img
-              key={speaker.position}
-              className={`img-${speaker.id}`}
-              src={speaker.image}
-              alt='speaker pic'
-            />
-          ))}
-        </div>
+        <Fade delay={200}>
+          <div className='container'>
+            {speakersCollage.map((speaker) => (
+              <img
+                key={speaker.position}
+                className={`img-${speaker.id}`}
+                src={speaker.image}
+                alt='speaker pic'
+              />
+            ))}
+          </div>
+        </Fade>
 
         <Fade bottom delay={350}>
           <div className='btn-container'>

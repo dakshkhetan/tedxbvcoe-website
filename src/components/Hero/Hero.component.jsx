@@ -1,16 +1,17 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import Fade from 'react-reveal/Fade';
 
-import logo from "../../assets/logo/tedxbvcoe_logo.png";
+import logoMobile from '../../assets/logo/tedxbvcoe-logo_short.png';
+import logoDesktop from '../../assets/logo/tedxbvcoe-logo_long.jpeg';
 
-import "./Hero.styles.scss";
+import './Hero.styles.scss';
 
 const Hero = () => {
   return (
-    <section id="home" className="section section-hero">
+    <section id='home' className='section section-hero'>
       <Fade>
-        <div className="logo-container">
-          <img src={logo} alt="logo" />
+        <div className='logo-container'>
+          <img className='logo-desktop' src={logoDesktop} alt='logo' />
+          <img className='logo-mobile' src={logoMobile} alt='logo' />
         </div>
       </Fade>
     </section>

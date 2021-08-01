@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="!#">
-    <img src="./src/assets/logo/tedxbvcoe_logo.png" alt="TEDxBVCOE Logo" width="250">
+    <img src="./src/assets/logo/tedxbvcoe-logo_short.png" alt="TEDxBVCOE Logo" width="250">
   </a>
 
   <p align="center">
@@ -12,7 +12,7 @@
   <h3 align="center">TEDxBVCOE'21</h3>
 
   <p align="center">
-    <a href="!#">Checkout the  official website</a>
+    <a href="https://bit.ly/TEDxBVCOE">Checkout the  official website</a>
   </p>
   
   <br />

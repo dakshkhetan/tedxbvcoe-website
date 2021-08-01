@@ -1,16 +1,16 @@
-import React from "react";
-import { Link, withRouter } from "react-router-dom";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import SideDrawer from "../SideDrawer/SideDrawer.component";
-import Backdrop from "../Backdrop/Backdrop.component";
+import SideDrawer from '../SideDrawer/SideDrawer.component';
+import Backdrop from '../Backdrop/Backdrop.component';
 
-import logo from "../../assets/logo/tedxbvcoe_logo.png";
+import logo from '../../assets/logo/tedxbvcoe-logo_short.png';
 
-import "./Header.styles.scss";
+import './Header.styles.scss';
 
 class Header extends React.Component {
   state = {
@@ -21,7 +21,7 @@ class Header extends React.Component {
     const { location, history } = this.props;
     const { sideDrawerOpen } = this.state;
     sideDrawerOpen && this.closeSideDrawer();
-    location.pathname === "/" ? scroll.scrollToTop() : history.push("/");
+    location.pathname === '/' ? scroll.scrollToTop() : history.push('/');
   };
 
   openSideDrawer = () => {
@@ -38,9 +38,9 @@ class Header extends React.Component {
 
   headerOption = (option) => {
     const { location, history } = this.props;
-    return location.pathname === "/" ? (
+    return location.pathname === '/' ? (
       <ScrollLink
-        activeClass="active"
+        activeClass='active'
         to={option}
         spy={true}
         smooth={true}
@@ -65,13 +65,13 @@ class Header extends React.Component {
       <span className={`${className} hover`} onClick={() => this.scrollToTop()}>
         Home
       </span>
-      <Link to="/speakers" className={`${className} hover`}>
+      <Link to='/speakers' className={`${className} hover`}>
         Speakers
       </Link>
-      {this.headerOption("sponsors")}
-      {this.headerOption("faq")}
-      {this.headerOption("team")}
-      {this.headerOption("contact")}
+      {this.headerOption('sponsors')}
+      {this.headerOption('faq')}
+      {this.headerOption('team')}
+      {this.headerOption('contact')}
     </>
   );
 
@@ -79,20 +79,20 @@ class Header extends React.Component {
     const { sideDrawerOpen } = this.state;
 
     return (
-      <nav className="header">
-        <div className="logo-container">
+      <nav className='header'>
+        <div className='logo-container'>
           <img
             src={logo}
-            alt="logo"
-            className="logo"
+            alt='logo'
+            className='logo'
             onClick={this.scrollToTop}
           />
         </div>
 
-        <div className="options">{this.headerOptions("option")}</div>
+        <div className='options'>{this.headerOptions('option')}</div>
 
-        <div className="sidedrawer-btn">
-          <span className="toggle" onClick={this.openSideDrawer}>
+        <div className='sidedrawer-btn'>
+          <span className='toggle' onClick={this.openSideDrawer}>
             <FontAwesomeIcon icon={faBars} />
           </span>
         </div>

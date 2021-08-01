@@ -26,14 +26,18 @@ const SpeakerForm = () => {
       </Fade> */}
 
       <div className='section-content'>
-        <h2>
-          Want to become a <br />
-          <span>speaker</span> ?
-        </h2>
+        <Fade bottom delay={100}>
+          <h2>
+            Want to become a <br />
+            <span>speaker</span> ?
+          </h2>
+        </Fade>
 
-        <p className='text'>
-          Join us here at TEDxBVCOE to get an opportunity for betterment.
-        </p>
+        <Fade bottom delay={200}>
+          <p className='text'>
+            Join us here at TEDxBVCOE to get an opportunity for betterment.
+          </p>
+        </Fade>
 
         <Fade bottom delay={350}>
           <div className='btn-container'>

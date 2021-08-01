@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -31,7 +31,7 @@ const FAQs = () => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <section id='faq' className='section section-faq'>
         <Fade bottom>
           <h1 className='section-heading'>FAQs</h1>
@@ -49,7 +49,7 @@ const FAQs = () => {
           </div>
         </Fade>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 

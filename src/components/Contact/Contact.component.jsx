@@ -34,7 +34,9 @@ const Contact = () => {
                   </span>
                 </p>
 
-                <div className='separator' />
+                <Fade bottom delay={500}>
+                  <div className='separator' />
+                </Fade>
 
                 <p className='text text-2'>
                   <span className='underline_'>Chaitanya Chhabra</span>
@@ -44,7 +46,9 @@ const Contact = () => {
                   </span>
                 </p>
 
-                <div className='separator' />
+                <Fade bottom delay={500}>
+                  <div className='separator' />
+                </Fade>
 
                 <p className='text text-2'>
                   <span className='underline_'>Sarthak Sethi</span>

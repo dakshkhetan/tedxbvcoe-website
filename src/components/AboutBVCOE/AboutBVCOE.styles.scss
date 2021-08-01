@@ -9,6 +9,7 @@
 
     .image-container {
       width: 40%;
+      max-width: 475px;
       display: flex;
       justify-content: center;
       margin-bottom: 40px;
@@ -22,6 +23,7 @@
 
     .info {
       width: 85%;
+      max-width: 1100px;
 
       p {
         text-align: justify;

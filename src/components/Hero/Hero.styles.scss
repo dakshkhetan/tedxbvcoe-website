@@ -5,15 +5,22 @@
   align-items: center;
 
   .logo-container {
-    height: 50%;
-    // width: 100%;
+    width: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
-    margin-top: 100px;
+    align-items: center;
 
     img {
-      height: 100%;
+      width: 100%;
+
+      &.logo-desktop {
+        display: block;
+      }
+
+      &.logo-mobile {
+        display: none;
+      }
     }
   }
 
@@ -25,19 +32,29 @@
 
   @media only screen and (max-width: 768px) {
     height: 85vh !important;
-    justify-content: center;
-
-    .logo-container {
-      width: 60%;
-      margin-top: -20px;
-    }
   }
 
   @media only screen and (max-width: 425px) {
     height: 85vh !important;
+    justify-content: center;
 
     .logo-container {
       width: 90%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+      margin-top: -20px;
+
+      img {
+        &.logo-desktop {
+          display: none;
+        }
+
+        &.logo-mobile {
+          display: block;
+        }
+      }
     }
 
     .hero-icon {
