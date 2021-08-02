@@ -1,5 +1,10 @@
 export const FAQData = [
   {
+    question: 'What will be the platform of the event?',
+    answer: 'Will be answered soon!',
+    open: false
+  },
+  {
     question: 'Can I attend multiple events?',
     answer:
       'Yes, one can attend as many events as one wants by registering accordingly.',
@@ -8,24 +13,32 @@ export const FAQData = [
   {
     question: 'How would I know my registration has been confirmed?',
     answer:
-      'After you have registered for the event, you will receive a confirmation mail regarding it.',
+      'You will receive the confirmation on your registered email from TEDxBVCOE’s official email ID.',
     open: false
   },
   {
-    question: 'Is there any payment for the events?',
+    question:
+      'What if my payment for the registration of the event(s) gets deducted from my account but did not receive any confirmation?',
     answer:
-      'Not all events are paid but there are paid events whose details would be provided in the event description.',
+      'You can contact us through your registered email on TEDxBVCOE official email ID (bvcoetedx@gmail.com).',
     open: false
   },
   {
-    question: 'Which platform to be used?',
-    answer: '"Zoom" is the platform which is going to be used for this event.',
+    question:
+      'I made a mistake buying my pass for the event(s), what do I do now?',
+    answer: 'Will be answered soon!',
     open: false
   },
   {
-    question: 'How to register?',
+    question:
+      'Can I cancel my registration for the events I enrolled for? If so, what is the process?',
+    answer: 'Will be answered soon!',
+    open: false
+  },
+  {
+    question: 'Will the recorded sessions of TEDxBVCOE be available online?',
     answer:
-      "Students can register using the platform called 'Commudle', in which the participants will receive a confirmation mail also and they can RSVP and then, send the screenshot at the ID encorebvp@gmail.com",
+      'Yes, the recorded session will be available on TEDx official YouTube channel.',
     open: false
   }
 ];

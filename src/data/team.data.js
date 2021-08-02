@@ -21,11 +21,11 @@ export const TeamData = {
     {
       key: '3',
       name: 'Prerna Arya',
-      position: 'Core Team'
-      // linkedInURL: 'https://linkedin.com/in/prerna',
-      // instagramURL: 'https://instagram.com/prerna',
-      // twitterURL: '',
-      // displayPicSrc: require('../assets/team/prerna.jpg').default
+      position: 'Core Team',
+      linkedInURL: 'https://linkedin.com/in/aryaprerna23',
+      instagramURL: 'https://instagram.com/aryaprerna23',
+      twitterURL: '',
+      displayPicSrc: require('../assets/team/prerna.jpg').default
     },
     {
       key: '4',
@@ -66,11 +66,11 @@ export const TeamData = {
     {
       key: '8',
       name: 'Drishti Hans',
-      position: 'Core Team'
-      // linkedInURL: 'https://linkedin.com/in/drishti',
-      // instagramURL: 'https://instagram.com/drishti',
-      // twitterURL: '',
-      // displayPicSrc: require('../assets/team/drishti.jpg').default
+      position: 'Events & Social Media Head',
+      linkedInURL: 'https://linkedin.com/in/drishti-hans-557054189',
+      instagramURL: 'https://instagram.com/drishti_hans',
+      twitterURL: '',
+      displayPicSrc: require('../assets/team/drishti.jpg').default
     },
     {
       key: '9',
@@ -120,10 +120,10 @@ export const TeamData = {
     {
       key: '14',
       name: 'Uday Jain',
-      position: 'Technical Head'
+      position: 'Technical Head',
       // linkedInURL: 'https://linkedin.com/in/uday',
       // instagramURL: 'https://instagram.com/uday',
-      // twitterURL: '',
+      twitterURL: ''
       // displayPicSrc: require('../assets/team/uday.jpg').default
     },
     {
@@ -138,10 +138,10 @@ export const TeamData = {
     {
       key: '16',
       name: 'Rishab',
-      position: 'Event Coverage'
+      position: 'Event Coverage',
       // linkedInURL: 'https://linkedin.com/in/rishab',
       // instagramURL: 'https://instagram.com/rishab',
-      // twitterURL: '',
+      twitterURL: ''
       // displayPicSrc: require('../assets/team/rishab.jpg').default
     },
     {
