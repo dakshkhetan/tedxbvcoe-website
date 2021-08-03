@@ -39,11 +39,11 @@ export const TeamData = {
     {
       key: '5',
       name: 'Parinika Singh',
-      position: 'Core Team'
-      // linkedInURL: 'https://linkedin.com/in/parinika',
-      // instagramURL: 'https://instagram.com/parinika',
-      // twitterURL: '',
-      // displayPicSrc: require('../assets/team/parinika.jpg').default
+      position: 'Core Team',
+      linkedInURL: '',
+      instagramURL: 'https://instagram.com/parinikasingh',
+      twitterURL: '',
+      displayPicSrc: require('../assets/team/parinika.jpg').default
     },
     {
       key: '6',
@@ -120,11 +120,11 @@ export const TeamData = {
     {
       key: '14',
       name: 'Uday Jain',
-      position: 'Technical Head',
-      // linkedInURL: 'https://linkedin.com/in/uday',
-      // instagramURL: 'https://instagram.com/uday',
-      twitterURL: ''
-      // displayPicSrc: require('../assets/team/uday.jpg').default
+      position: 'Technical Team',
+      linkedInURL: 'https://linkedin.com/in/uday-jain-2853581a6',
+      instagramURL: '',
+      twitterURL: '',
+      displayPicSrc: require('../assets/team/uday.jpg').default
     },
     {
       key: '15',

@@ -5,12 +5,6 @@ export const FAQData = [
     open: false
   },
   {
-    question: 'Can I attend multiple events?',
-    answer:
-      'Yes, one can attend as many events as one wants by registering accordingly.',
-    open: false
-  },
-  {
     question: 'How would I know my registration has been confirmed?',
     answer:
       'You will receive the confirmation on your registered email from TEDxBVCOE’s official email ID.',
