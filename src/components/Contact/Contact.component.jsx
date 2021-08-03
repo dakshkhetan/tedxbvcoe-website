@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -42,7 +42,7 @@ const Contact = () => {
                   <span className='underline_'>Chaitanya Chhabra</span>
                   <br />
                   <span className='underline_'>
-                    <a href='tel:+918470034433'>+91-9910068761</a>
+                    <a href='tel:+919910068761'>+91-9910068761</a>
                   </span>
                 </p>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                   <span className='underline_'>Sarthak Sethi</span>
                   <br />
                   <span className='underline_'>
-                    <a href='tel:+918470034433'>+91-9968571394</a>
+                    <a href='tel:+919968571394'>+91-9968571394</a>
                   </span>
                 </p>
               </Fade>

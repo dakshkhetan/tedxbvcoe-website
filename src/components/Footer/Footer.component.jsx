@@ -56,7 +56,7 @@ const Footer = () => {
 
       <h1 className='heading'>COPYRIGHT © 2021</h1>
       <p className='sub-heading'>
-        <a href='!#' style={{ textTransform: 'none' }}>
+        <a href='https://bit.ly/TEDxBVCOE' style={{ textTransform: 'none' }}>
           TEDxBVCOE
         </a>
         . All rights reserved.
