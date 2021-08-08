@@ -15,10 +15,34 @@
   .section-content {
     text-align: center;
 
+    .section-heading {
+      color: #ff4929;
+      font-size: 2.8rem;
+      text-align: center;
+      padding-top: 40px;
+      margin-top: 0;
+
+      &.organising {
+        margin-top: 20px;
+      }
+
+      @media only screen and (max-width: 425px) {
+        font-size: 2.2rem;
+
+        &.organising {
+          margin-top: 0;
+        }
+      }
+    }
+
     .members {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 10px;
+
+      @media only screen and (min-width: 1024px) {
+        margin: 0 10%;
+      }
     }
 
     .image-container {

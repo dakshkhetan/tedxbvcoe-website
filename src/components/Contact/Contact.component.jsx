@@ -27,9 +27,11 @@ const Contact = () => {
 
               <Fade bottom delay={400}>
                 <p className='text text-2'>
-                  <span className='underline_'>Akshat Jain</span>
+                  <span>Akshat Jain</span>
                   <br />
-                  <span className='underline_'>
+                  <span className='position underline_'>Organizer</span>
+                  <br />
+                  <span>
                     <a href='tel:+918470034433'>+91-8470034433</a>
                   </span>
                 </p>
@@ -39,9 +41,11 @@ const Contact = () => {
                 </Fade>
 
                 <p className='text text-2'>
-                  <span className='underline_'>Chaitanya Chhabra</span>
+                  <span>Chaitanya Chhabra</span>
                   <br />
-                  <span className='underline_'>
+                  <span className='position underline_'>Co Organizer</span>
+                  <br />
+                  <span>
                     <a href='tel:+919910068761'>+91-9910068761</a>
                   </span>
                 </p>
@@ -51,9 +55,11 @@ const Contact = () => {
                 </Fade>
 
                 <p className='text text-2'>
-                  <span className='underline_'>Sarthak Sethi</span>
+                  <span>Sarthak Sethi</span>
                   <br />
-                  <span className='underline_'>
+                  <span className='position underline_'>Curator</span>
+                  <br />
+                  <span>
                     <a href='tel:+919968571394'>+91-9968571394</a>
                   </span>
                 </p>

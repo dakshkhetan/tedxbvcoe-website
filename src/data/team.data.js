@@ -1,9 +1,8 @@
 export const TeamData = {
-  members: [
+  coreTeam: [
     {
       key: '1',
       name: 'Akshat Jain',
-      position: 'Organizer',
       linkedInURL: 'https://linkedin.com/in/akijain2000',
       instagramURL: 'https://instagram.com/akijain2000',
       twitterURL: '',
@@ -12,7 +11,6 @@ export const TeamData = {
     {
       key: '2',
       name: 'Chaitanya Chhabra',
-      position: 'Co Organizer',
       linkedInURL: 'https://linkedin.com/in/chaitanya-chhabra',
       instagramURL: 'https://instagram.com/chaitanya1609',
       twitterURL: '',
@@ -21,7 +19,6 @@ export const TeamData = {
     {
       key: '3',
       name: 'Prerna Arya',
-      position: 'Core Team',
       linkedInURL: 'https://linkedin.com/in/aryaprerna23',
       instagramURL: 'https://instagram.com/aryaprerna23',
       twitterURL: '',
@@ -30,7 +27,6 @@ export const TeamData = {
     {
       key: '4',
       name: 'Sarthak Sethi',
-      position: 'Curator',
       linkedInURL: 'https://linkedin.com/in/sarthak-sethi-8497b5174',
       instagramURL: 'https://instagram.com/sarthak_sethi6',
       twitterURL: 'https://twitter.com/sarthak_sethi6',
@@ -39,7 +35,6 @@ export const TeamData = {
     {
       key: '5',
       name: 'Parinika Singh',
-      position: 'Core Team',
       linkedInURL: '',
       instagramURL: 'https://instagram.com/parinikasingh',
       twitterURL: '',
@@ -48,7 +43,6 @@ export const TeamData = {
     {
       key: '6',
       name: 'Pulkit Sharma',
-      position: 'Core Team',
       linkedInURL: 'https://linkedin.com/in/pulkitsharma153',
       instagramURL: 'https://instagram.com/pulk1tsharma',
       twitterURL: '',
@@ -57,7 +51,6 @@ export const TeamData = {
     {
       key: '7',
       name: 'Khushboo',
-      position: 'Core Team',
       linkedInURL: 'https://linkedin.com/in/khushboo-sharma-347577170',
       instagramURL: 'https://instagram.com/simplyme2400',
       twitterURL: '',
@@ -66,7 +59,6 @@ export const TeamData = {
     {
       key: '8',
       name: 'Drishti Hans',
-      position: 'Events & Social Media Head',
       linkedInURL: 'https://linkedin.com/in/drishti-hans-557054189',
       instagramURL: 'https://instagram.com/drishti_hans',
       twitterURL: '',
@@ -75,12 +67,13 @@ export const TeamData = {
     {
       key: '9',
       name: 'Aditi Sharma',
-      position: 'Core Team',
       linkedInURL: 'https://linkedin.com/in/aditi-sharma-7a5bab1aa',
       instagramURL: 'https://instagram.com/_.aadeeti._',
       twitterURL: '',
       displayPicSrc: require('../assets/team/aditi.jpg').default
-    },
+    }
+  ],
+  organisingTeam: [
     {
       key: '10',
       name: 'Sarthak Gautam',
@@ -137,12 +130,12 @@ export const TeamData = {
     },
     {
       key: '16',
-      name: 'Rishab',
-      position: 'Event Coverage',
-      // linkedInURL: 'https://linkedin.com/in/rishab',
-      // instagramURL: 'https://instagram.com/rishab',
-      twitterURL: ''
-      // displayPicSrc: require('../assets/team/rishab.jpg').default
+      name: 'Rishabh Singh',
+      position: 'Event Coverage Head',
+      linkedInURL: 'https://linkedin.com/in/rishabh-singh-85b377180',
+      instagramURL: 'https://instagram.com/sparrow_automates',
+      twitterURL: '',
+      displayPicSrc: require('../assets/team/rishabh.jpg').default
     },
     {
       key: '17',

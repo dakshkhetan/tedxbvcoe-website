@@ -1,4 +1,3 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter,
@@ -10,7 +9,7 @@ import DisplayImagePlaceholder from '../../assets/team/placeholder.png';
 
 import './Person.styles.scss';
 
-const Person = ({ member }) => {
+const Person = ({ member, isCore }) => {
   const {
     name,
     position,
@@ -21,7 +20,7 @@ const Person = ({ member }) => {
   } = member;
 
   return (
-    <div className='member'>
+    <div className={`member ${isCore ? 'core' : 'organising'}`}>
       <div className='img-container'>
         <div className='display-pic'>
           {displayPicSrc ? (
@@ -32,7 +31,7 @@ const Person = ({ member }) => {
         </div>
       </div>
       <span className='name'>{name}</span>
-      <span className='position'>{position}</span>
+      {position && <span className='position'>{position}</span>}
       <div className='social-icons'>
         {linkedInURL && (
           <a
@@ -41,10 +40,7 @@ const Person = ({ member }) => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FontAwesomeIcon
-              icon={faLinkedinIn}
-              className='icon linkedin'
-            />
+            <FontAwesomeIcon icon={faLinkedinIn} className='icon linkedin' />
           </a>
         )}
         {instagramURL && (

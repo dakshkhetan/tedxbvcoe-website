@@ -19,8 +19,8 @@
 
       h2 {
         font-size: 1.6rem;
-        color: #ff4929;
         font-weight: bold;
+        color: #ff4929;
       }
 
       .text {
@@ -29,6 +29,13 @@
 
       .text-2 {
         margin-top: -10px;
+
+        .position {
+          font-size: 1.1rem;
+          font-weight: 300;
+          font-style: italic;
+          color: #eee;
+        }
 
         a {
           color: #fff;
@@ -88,7 +95,7 @@
     }
 
     .image-container {
-      height: 160px;
+      height: 80px;
       position: relative;
 
       .illustration {
@@ -164,7 +171,7 @@
       }
 
       .image-container {
-        height: 190px;
+        height: 200px;
 
         .illustration {
           width: 100%;
