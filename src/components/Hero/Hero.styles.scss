@@ -6,7 +6,11 @@
 
   .logo-container {
     width: 90%;
+
+    // TODO: use commented value
     height: 100%;
+    // height: 70%;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +28,51 @@
     }
   }
 
+  .content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    // TODO: unhide later
+    display: none;
+
+    .child {
+      width: 275px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 0;
+
+      .icon {
+        font-size: 30px;
+        color: #ff4929;
+        margin-bottom: 12px;
+      }
+
+      h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+      }
+
+      &.date-container {
+        .date {
+          margin-top: -2px;
+
+          sup {
+            font-size: 22px;
+          }
+
+          .ampersand {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+
   .hero-icon {
     margin-top: 40px;
     font-size: 2.2rem;
@@ -32,15 +81,45 @@
 
   @media only screen and (max-width: 768px) {
     height: 85vh !important;
+
+    .logo-container {
+      // TODO: use commented value
+      height: 100%;
+      //  height: 57%;
+    }
+
+    .content {
+      .child {
+        .icon {
+          font-size: 26px;
+        }
+
+        h2 {
+          font-size: 1.6rem;
+        }
+
+        &.date-container {
+          .date {
+            sup {
+              font-size: 20px;
+            }
+
+            .ampersand {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
   }
 
   @media only screen and (max-width: 425px) {
-    height: 85vh !important;
+    height: 90vh !important;
     justify-content: center;
 
     .logo-container {
       width: 90%;
-      height: 50%;
+      height: 60%;
       display: flex;
       justify-content: center;
       padding-bottom: 20px;
@@ -57,9 +136,43 @@
       }
     }
 
+    .content {
+      .child {
+        width: 185px;
+        margin: 12px 0;
+
+        .icon {
+          font-size: 22px;
+        }
+
+        h2 {
+          font-size: 1.25rem;
+        }
+
+        &.date-container {
+          .date {
+            sup {
+              font-size: 15px;
+            }
+
+            .ampersand {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+
     .hero-icon {
       margin-top: 30px;
       font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 412px) {
+    .logo-container {
+      height: 50%;
+      margin-top: -40px;
     }
   }
 }
