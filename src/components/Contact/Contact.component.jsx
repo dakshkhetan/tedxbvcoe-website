@@ -29,7 +29,7 @@ const Contact = () => {
                 <p className='text text-2'>
                   <span>Akshat Jain</span>
                   <br />
-                  <span className='position underline_'>Organizer</span>
+                  <span className='position'>Organizer</span>
                   <br />
                   <span>
                     <a href='tel:+918470034433'>+91-8470034433</a>
@@ -43,7 +43,7 @@ const Contact = () => {
                 <p className='text text-2'>
                   <span>Chaitanya Chhabra</span>
                   <br />
-                  <span className='position underline_'>Co Organizer</span>
+                  <span className='position'>Co Organizer</span>
                   <br />
                   <span>
                     <a href='tel:+919910068761'>+91-9910068761</a>
@@ -57,7 +57,7 @@ const Contact = () => {
                 <p className='text text-2'>
                   <span>Sarthak Sethi</span>
                   <br />
-                  <span className='position underline_'>Curator</span>
+                  <span className='position'>Curator</span>
                   <br />
                   <span>
                     <a href='tel:+919968571394'>+91-9968571394</a>
