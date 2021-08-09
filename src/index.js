@@ -12,6 +12,7 @@ import Home from './pages/Home/Home';
 import Speakers from './pages/Speakers/Speakers';
 import Sponsors from './components/Sponsors/Sponsors.component';
 import Sponsor from './components/Sponsor/Sponsor.component';
+import Tickets from './components/Tickets/Tickets.component';
 import Team from './components/Team/Team.component';
 import FAQs from './components/FAQs/FAQs.component';
 import Contact from './components/Contact/Contact.component';
@@ -31,6 +32,7 @@ const Root = () => (
       <Route exact path='/' component={Home} />
       <Route path='/speakers' component={Speakers} />
       <Route path='/sponsors' component={Sponsors} />
+      <Route path='/tickets' component={Tickets} />
       <Route path='/faq' component={FAQs} />
       <Route path='/team' component={Team} />
       <Route path='/contact' component={Contact} />

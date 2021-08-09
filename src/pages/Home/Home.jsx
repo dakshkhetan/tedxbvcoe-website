@@ -7,13 +7,14 @@ import AboutBVCOE from '../../components/AboutBVCOE/AboutBVCOE.component';
 // import Speakers from '../../components/Speakers/Speakers.component';
 import SpeakerForm from '../../components/SpeakerForm/SpeakerForm.component';
 // import SponsorUs from '../../components/SponsorUs/SponsorUs.component';
+// import Tickets from '../../components/Tickets/Tickets.component';
 import FAQs from '../../components/FAQs/FAQs.component';
 import Team from '../../components/Team/Team.component';
 import Contact from '../../components/Contact/Contact.component';
 
 import './Home.styles.scss';
 
-// TODO: unhide sections & swap team & contact components
+// TODO: unhide sections & swap <Team /> & <FAQs /> components if bg-color is not ideal
 
 const Home = () => {
   useEffect(() => {
@@ -25,9 +26,10 @@ const Home = () => {
     <div className='App'>
       <Hero />
       <AboutBVCOE />
-      {/* <Sponsors /> */}
       {/* <Speakers /> */}
       <SpeakerForm />
+      {/* <Tickets /> */}
+      {/* <Sponsors /> */}
       {/* <SponsorUs /> */}
       <Team />
       <FAQs />

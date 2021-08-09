@@ -1,0 +1,156 @@
+.section-tickets {
+  height: auto !important;
+  min-height: 650px;
+  background-color: #000;
+  color: #fff;
+  padding: 0 5%;
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #ff4929;
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+
+    .tickets-container {
+      width: 100%;
+      max-width: 1250px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      .ticket {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        background-color: #0c0c0c;
+        border: 8px solid #3e3e3e;
+        border-radius: 12px;
+        margin: 10px;
+        overflow: hidden;
+
+        .upper {
+          display: flex;
+          flex-direction: column;
+          padding: 18px 20px 5px;
+
+          h3 {
+            margin: 0;
+          }
+
+          .category {
+            h3 {
+              width: fit-content;
+              background-color: #3e3e3e;
+              border-radius: 8px;
+              color: lighten(#ff4929, 10%);
+              text-transform: uppercase;
+              padding: 5px 10px;
+            }
+          }
+
+          .price {
+            margin-top: 5px;
+
+            h3 {
+              font-family: system-ui, -apple-system, 'Segoe UI', Roboto,
+                Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+                'Segoe UI Emoji', 'Segoe UI Symbol';
+              font-weight: 700;
+              font-size: 40px;
+              color: #fff;
+            }
+          }
+        }
+
+        .lower {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          background-color: #272727;
+          padding: 20px;
+
+          .description {
+            // text-align: justify;
+
+            p {
+              font-size: 1.1rem;
+              margin: 0;
+            }
+          }
+
+          .payment-link {
+            display: flex;
+            justify-content: center;
+            margin-top: 18px;
+
+            button {
+              background-color: #000;
+              border: 3px solid #6d6d6d;
+              border-radius: 30px;
+              font-size: 1.1rem;
+              font-weight: 600;
+              color: #fff;
+              text-transform: uppercase;
+              padding: 9px 25px 6px;
+              transition: all ease-in-out 0.5s;
+              cursor: pointer;
+
+              &:hover {
+                background-color: #131313;
+                border-color: #131313;
+                color: #fff;
+                transition: all ease-in-out 0.2s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    height: auto !important;
+
+    .section-content {
+      .tickets-container {
+        .ticket {
+          width: 420px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+
+    .section-content {
+      .tickets-container {
+        width: 75%;
+
+        .ticket {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      .tickets-container {
+        width: 95%;
+
+        .ticket {
+          width: 95%;
+        }
+      }
+    }
+  }
+}

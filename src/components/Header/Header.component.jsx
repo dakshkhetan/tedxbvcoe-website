@@ -1,6 +1,7 @@
 import React from 'react';
-// import { Link, withRouter } from 'react-router-dom';
+// TODO: use commented out imports once after unhiding sections
 import { withRouter } from 'react-router-dom';
+// import { Link, withRouter } from 'react-router-dom';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -70,6 +71,9 @@ class Header extends React.Component {
       </span>
       {/* <Link to='/speakers' className={`${className} hover`}>
         Speakers
+      </Link> */}
+      {/* <Link to='/tickets' className={`${className} hover`}>
+        Tickets
       </Link> */}
       {/* {this.headerOption('sponsors')} */}
       {this.headerOption('faq')}
