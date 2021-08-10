@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactGA from 'react-ga';
 import { animateScroll as scroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -61,6 +60,11 @@ const Footer = () => {
         </a>
         . All rights reserved.
       </p>
+
+      <p className='sub-heading tedx'>
+        This independent TEDx event is operated under license from TED.
+      </p>
+
       <span className='sub-heading credit' onClick={onClickHandler}>
         Designed & developed by{' '}
         <span className='credit-link underline'>Daksh Khetan</span>
