@@ -75,7 +75,9 @@ class Header extends React.Component {
       {/* <Link to='/tickets' className={`${className} hover`}>
         Tickets
       </Link> */}
-      {/* {this.headerOption('sponsors')} */}
+      {/* <Link to='/sponsors' className={`${className} hover`}>
+        Sponsors
+      </Link> */}
       {this.headerOption('faq')}
       {this.headerOption('team')}
       {this.headerOption('contact')}
