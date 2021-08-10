@@ -2,8 +2,7 @@ import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 
 import Hero from '../../components/Hero/Hero.component';
-import AboutBVCOE from '../../components/AboutBVCOE/AboutBVCOE.component';
-// import Sponsors from '../../components/Sponsors/Sponsors.component';
+import About from '../../components/About/About.component';
 // import Speakers from '../../components/Speakers/Speakers.component';
 import SpeakerForm from '../../components/SpeakerForm/SpeakerForm.component';
 // import SponsorUs from '../../components/SponsorUs/SponsorUs.component';
@@ -25,11 +24,10 @@ const Home = () => {
   return (
     <div className='App'>
       <Hero />
-      <AboutBVCOE />
+      <About />
       {/* <Speakers /> */}
       <SpeakerForm />
       {/* <Tickets /> */}
-      {/* <Sponsors /> */}
       {/* <SponsorUs /> */}
       <Team />
       <FAQs />
