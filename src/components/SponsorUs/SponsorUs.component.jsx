@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 // import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
@@ -17,10 +17,10 @@ const SponsorUs = () => {
   const onClickHandler = () => {
     // ReactGA.event({
     //   category: 'Button Clicks',
-    //   action: "'Checkout-Events' Button Click",
-    //   label: "User clicked on 'Checkout All Events' button"
+    //   action: "'Apply for Sponsorship' Button Click",
+    //   label: "User clicked on 'Apply for Sponsorship' button"
     // });
-    // history.push('/events');
+    // window.open('https://bit.ly/tedx-speaker-form', '_blank');
   };
 
   return (

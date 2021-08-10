@@ -52,26 +52,28 @@ const About = () => {
       </Fade>
 
       <div className='section-content'>
-        <div className='tabs-container'>
-          <button
-            className={currentTab === 'TEDx' ? 'selected' : ''}
-            onClick={() => setCurrentTab('TEDx')}
-          >
-            <h4>TEDx</h4>
-          </button>
-          <button
-            className={currentTab === 'TED' ? 'selected' : ''}
-            onClick={() => setCurrentTab('TED')}
-          >
-            <h4>TED</h4>
-          </button>
-          <button
-            className={currentTab === 'BVCOE' ? 'selected' : ''}
-            onClick={() => setCurrentTab('BVCOE')}
-          >
-            <h4>BVCOE</h4>
-          </button>
-        </div>
+        <Fade delay={150}>
+          <div className='tabs-container'>
+            <button
+              className={currentTab === 'TEDx' ? 'selected' : ''}
+              onClick={() => setCurrentTab('TEDx')}
+            >
+              <h4>TEDx</h4>
+            </button>
+            <button
+              className={currentTab === 'TED' ? 'selected' : ''}
+              onClick={() => setCurrentTab('TED')}
+            >
+              <h4>TED</h4>
+            </button>
+            <button
+              className={currentTab === 'BVCOE' ? 'selected' : ''}
+              onClick={() => setCurrentTab('BVCOE')}
+            >
+              <h4>BVCOE</h4>
+            </button>
+          </div>
+        </Fade>
 
         <div className='image-container'>
           <Zoom delay={200}>
