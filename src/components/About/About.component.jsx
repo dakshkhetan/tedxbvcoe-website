@@ -21,6 +21,8 @@ const SelectedTabImage = ({ tab }) => {
               className={`${loading ? 'loading' : ''}`}
               src={src}
               alt='TEDx logo'
+              width='300'
+              height='170'
             />
           )}
         </ProgressiveImage>
@@ -34,6 +36,8 @@ const SelectedTabImage = ({ tab }) => {
               className={`${loading ? 'loading' : ''}`}
               src={src}
               alt='TED logo'
+              width='300'
+              height='170'
             />
           )}
         </ProgressiveImage>
@@ -47,6 +51,8 @@ const SelectedTabImage = ({ tab }) => {
               className={`${loading ? 'loading' : ''}`}
               src={src}
               alt='BVCOE'
+              width='300'
+              height='170'
             />
           )}
         </ProgressiveImage>
@@ -89,19 +95,19 @@ const About = () => {
               className={currentTab === 'TEDx' ? 'selected' : ''}
               onClick={() => setCurrentTab('TEDx')}
             >
-              <h4>TEDx</h4>
+              <h2>TEDx</h2>
             </button>
             <button
               className={currentTab === 'TED' ? 'selected' : ''}
               onClick={() => setCurrentTab('TED')}
             >
-              <h4>TED</h4>
+              <h2>TED</h2>
             </button>
             <button
               className={currentTab === 'BVCOE' ? 'selected' : ''}
               onClick={() => setCurrentTab('BVCOE')}
             >
-              <h4>BVCOE</h4>
+              <h2>BVCOE</h2>
             </button>
           </div>
         </Fade>

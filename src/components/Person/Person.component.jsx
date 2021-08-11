@@ -46,6 +46,7 @@ const Person = ({ member, isCore }) => {
             className='social-link'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='LinkedIn'
           >
             <FontAwesomeIcon icon={faLinkedinIn} className='icon linkedin' />
           </a>
@@ -56,6 +57,7 @@ const Person = ({ member, isCore }) => {
             className='social-link'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='Instagram'
           >
             <FontAwesomeIcon icon={faInstagram} className='icon instagram' />
           </a>
@@ -66,6 +68,7 @@ const Person = ({ member, isCore }) => {
             className='social-link'
             target='_blank'
             rel='noopener noreferrer'
+            aria-label='Twitter'
           >
             <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
           </a>

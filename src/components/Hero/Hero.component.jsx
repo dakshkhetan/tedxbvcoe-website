@@ -24,13 +24,25 @@ const Hero = () => {
             placeholder={logoDesktopCompressed}
           >
             {(src) => (
-              <img className='logo-desktop' src={src} alt='TEDxBVCOE logo' />
+              <img
+                className='logo-desktop'
+                src={src}
+                alt='TEDxBVCOE logo'
+                width='900'
+                height='230'
+              />
             )}
           </ProgressiveImage>
 
           <ProgressiveImage src={logoMobile} placeholder={logoMobileCompressed}>
             {(src) => (
-              <img className='logo-mobile' src={src} alt='TEDxBVCOE logo' />
+              <img
+                className='logo-mobile'
+                src={src}
+                alt='TEDxBVCOE logo'
+                width='340'
+                height='285'
+              />
             )}
           </ProgressiveImage>
         </div>
