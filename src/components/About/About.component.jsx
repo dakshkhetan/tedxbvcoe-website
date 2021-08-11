@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import ProgressiveImage from 'react-progressive-image';
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
 
 import { TEDxEventInfo, TEDEventInfo, BVCOEInfo } from '../../data/about.data';
 
+import placeholderImage from '../../assets/about-section/blur-placeholder.jpg';
 import TEDxLogoImage from '../../assets/about-section/tedx-logo.jpg';
 import TEDLogoImage from '../../assets/about-section/ted-logo.jpg';
 import BVCOEImage from '../../assets/about-section/bvcoe.png';
@@ -13,13 +14,43 @@ import './About.styles.scss';
 const SelectedTabImage = ({ tab }) => {
   switch (tab) {
     case 'TEDx':
-      return <img src={TEDxLogoImage} alt='TEDx logo' />;
+      return (
+        <ProgressiveImage src={TEDxLogoImage} placeholder={placeholderImage}>
+          {(src, loading) => (
+            <img
+              className={`${loading ? 'loading' : ''}`}
+              src={src}
+              alt='TEDx logo'
+            />
+          )}
+        </ProgressiveImage>
+      );
 
     case 'TED':
-      return <img src={TEDLogoImage} alt='TED logo' />;
+      return (
+        <ProgressiveImage src={TEDLogoImage} placeholder={placeholderImage}>
+          {(src, loading) => (
+            <img
+              className={`${loading ? 'loading' : ''}`}
+              src={src}
+              alt='TED logo'
+            />
+          )}
+        </ProgressiveImage>
+      );
 
     case 'BVCOE':
-      return <img src={BVCOEImage} alt='BVCOE' />;
+      return (
+        <ProgressiveImage src={BVCOEImage} placeholder={placeholderImage}>
+          {(src, loading) => (
+            <img
+              className={`${loading ? 'loading' : ''}`}
+              src={src}
+              alt='BVCOE'
+            />
+          )}
+        </ProgressiveImage>
+      );
 
     default:
       return null;
@@ -76,9 +107,9 @@ const About = () => {
         </Fade>
 
         <div className='image-container'>
-          <Zoom delay={200}>
+          <Fade delay={200}>
             <SelectedTabImage tab={currentTab} />
-          </Zoom>
+          </Fade>
         </div>
 
         <div className='info'>

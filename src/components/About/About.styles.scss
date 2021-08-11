@@ -55,6 +55,10 @@
         width: 100%;
         border: 2px solid darken(#ff4929, 20%);
         border-radius: 2px;
+
+        &.loading {
+          min-width: 310px;
+        }
       }
     }
 
@@ -103,6 +107,12 @@
 
       .image-container {
         width: 70%;
+
+        img {
+          &.loading {
+            min-width: 250px;
+          }
+        }
       }
 
       .info {

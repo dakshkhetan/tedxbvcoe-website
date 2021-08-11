@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="!#">
-    <img src="./src/assets/logo/tedxbvcoe-logo_short.png" alt="TEDxBVCOE Logo" width="250">
+    <img src="./src/assets/logo/tedxbvcoe-logo_short.jpg" alt="TEDxBVCOE Logo" width="250">
   </a>
 
   <p align="center">

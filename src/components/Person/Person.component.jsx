@@ -1,3 +1,4 @@
+import ProgressiveImage from 'react-progressive-image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter,
@@ -6,6 +7,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import DisplayImagePlaceholder from '../../assets/team/placeholder.png';
+import placeholderImage from '../../assets/team/blur-placeholder.jpg';
 
 import './Person.styles.scss';
 
@@ -24,7 +26,12 @@ const Person = ({ member, isCore }) => {
       <div className='img-container'>
         <div className='display-pic'>
           {displayPicSrc ? (
-            <img src={displayPicSrc} alt='profile pic' />
+            <ProgressiveImage
+              src={displayPicSrc}
+              placeholder={placeholderImage}
+            >
+              {(src) => <img src={src} alt='profile pic' />}
+            </ProgressiveImage>
           ) : (
             <img src={DisplayImagePlaceholder} alt='profile pic' />
           )}

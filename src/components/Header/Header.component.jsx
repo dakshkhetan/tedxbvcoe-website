@@ -10,7 +10,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import SideDrawer from '../SideDrawer/SideDrawer.component';
 import Backdrop from '../Backdrop/Backdrop.component';
 
-import logo from '../../assets/logo/tedxbvcoe-logo_short.png';
+import logo from '../../assets/logo/tedxbvcoe-logo_short.jpg';
 
 import './Header.styles.scss';
 

@@ -50,7 +50,7 @@ export const TEDEventInfo = () => {
         >
           http://twitter.com/TEDTalks
         </a>
-        , or on Facebook at Follow TED on Twitter at{' '}
+        , or on Facebook at{' '}
         <a
           href='http://www.facebook.com/TED'
           target='_blank'

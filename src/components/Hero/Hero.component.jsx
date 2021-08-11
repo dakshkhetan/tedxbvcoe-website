@@ -1,3 +1,4 @@
+import ProgressiveImage from 'react-progressive-image';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -6,8 +7,10 @@ import {
   faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
 
-import logoMobile from '../../assets/logo/tedxbvcoe-logo_short.png';
-import logoDesktop from '../../assets/logo/tedxbvcoe-logo_long.jpeg';
+import logoMobileCompressed from '../../assets/logo/logo-short-compressed.png';
+import logoDesktopCompressed from '../../assets/logo/logo-long-compressed.png';
+import logoMobile from '../../assets/logo/tedxbvcoe-logo_short.jpg';
+import logoDesktop from '../../assets/logo/tedxbvcoe-logo_long.jpg';
 
 import './Hero.styles.scss';
 
@@ -16,8 +19,20 @@ const Hero = () => {
     <section id='home' className='section section-hero'>
       <Fade>
         <div className='logo-container'>
-          <img className='logo-desktop' src={logoDesktop} alt='logo' />
-          <img className='logo-mobile' src={logoMobile} alt='logo' />
+          <ProgressiveImage
+            src={logoDesktop}
+            placeholder={logoDesktopCompressed}
+          >
+            {(src) => (
+              <img className='logo-desktop' src={src} alt='TEDxBVCOE logo' />
+            )}
+          </ProgressiveImage>
+
+          <ProgressiveImage src={logoMobile} placeholder={logoMobileCompressed}>
+            {(src) => (
+              <img className='logo-mobile' src={src} alt='TEDxBVCOE logo' />
+            )}
+          </ProgressiveImage>
         </div>
 
         <div className='content'>
