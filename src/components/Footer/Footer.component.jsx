@@ -28,6 +28,7 @@ const Footer = () => {
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
+          aria-label='Twitter'
         >
           <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
         </a>
@@ -36,6 +37,7 @@ const Footer = () => {
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
+          aria-label='Instagram'
         >
           <FontAwesomeIcon icon={faInstagram} className='icon instagram' />
         </a>
@@ -44,6 +46,7 @@ const Footer = () => {
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
+          aria-label='Facebook'
         >
           <FontAwesomeIcon icon={faFacebook} className='icon facebook' />
         </a>

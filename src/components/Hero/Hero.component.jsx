@@ -28,8 +28,8 @@ const Hero = () => {
                 className='logo-desktop'
                 src={src}
                 alt='TEDxBVCOE logo'
-                width='900'
-                height='230'
+                width='928'
+                height='240'
               />
             )}
           </ProgressiveImage>

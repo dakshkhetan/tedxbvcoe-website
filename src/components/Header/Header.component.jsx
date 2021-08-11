@@ -94,6 +94,8 @@ class Header extends React.Component {
             src={logo}
             alt='logo'
             className='logo'
+            width='66'
+            height='55'
             onClick={this.scrollToTop}
           />
         </div>
