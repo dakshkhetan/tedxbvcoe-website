@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="!#">
+  <a href="https://bit.ly/TEDxBVCO">
     <img src="./src/assets/logo/tedxbvcoe-logo_short.jpg" alt="TEDxBVCOE Logo" width="250">
   </a>
 
