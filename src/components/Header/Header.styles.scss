@@ -13,14 +13,15 @@
   z-index: 1000;
 
   .logo-container {
-    height: 100%;
-    width: 55px;
-    padding-top: 5px;
+    width: 100px;
     text-align: center;
+    display: flex;
+    align-items: center;
 
     img.logo {
       width: 100%;
       height: auto;
+      margin-top: 7px;
       transform: scale(1.2);
       cursor: pointer;
     }
