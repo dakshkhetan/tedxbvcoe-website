@@ -80,7 +80,7 @@ const SelectedTabContent = ({ tab }) => {
 };
 
 const About = () => {
-  const [currentTab, setCurrentTab] = useState('TEDx');
+  const [currentTab, setCurrentTab] = useState('TED');
 
   return (
     <section id='about' className='section section-about'>
@@ -92,22 +92,22 @@ const About = () => {
         <Fade delay={150}>
           <div className='tabs-container'>
             <button
-              className={currentTab === 'TEDx' ? 'selected' : ''}
-              onClick={() => setCurrentTab('TEDx')}
-            >
-              <h2>TEDx</h2>
-            </button>
-            <button
               className={currentTab === 'TED' ? 'selected' : ''}
               onClick={() => setCurrentTab('TED')}
             >
               <h2>TED</h2>
             </button>
             <button
+              className={currentTab === 'TEDx' ? 'selected' : ''}
+              onClick={() => setCurrentTab('TEDx')}
+            >
+              <h2>TEDx</h2>
+            </button>
+            <button
               className={currentTab === 'BVCOE' ? 'selected' : ''}
               onClick={() => setCurrentTab('BVCOE')}
             >
-              <h2>BVCOE</h2>
+              <h2>TEDxBVCOE</h2>
             </button>
           </div>
         </Fade>
