@@ -5,7 +5,7 @@ import Hero from '../../components/Hero/Hero.component';
 import About from '../../components/About/About.component';
 // import Speakers from '../../components/Speakers/Speakers.component';
 // import SpeakerForm from '../../components/SpeakerForm/SpeakerForm.component';
-// import SponsorUs from '../../components/SponsorUs/SponsorUs.component';
+import SponsorUs from '../../components/SponsorUs/SponsorUs.component';
 // import Tickets from '../../components/Tickets/Tickets.component';
 import FAQs from '../../components/FAQs/FAQs.component';
 import Team from '../../components/Team/Team.component';
@@ -28,9 +28,9 @@ const Home = () => {
       {/* <Speakers /> */}
       {/* <SpeakerForm /> */}
       {/* <Tickets /> */}
-      {/* <SponsorUs /> */}
-      <FAQs />
+      <SponsorUs />
       <Team />
+      <FAQs />
       <Contact />
     </div>
   );
