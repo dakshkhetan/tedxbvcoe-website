@@ -64,30 +64,18 @@ export const TEDxEventInfo = () => {
   );
 };
 
-export const BVCOEInfo = () => {
+export const TEDxBVCOEInfo = () => {
   return (
     <>
       <p>
-        Bharati Vidyapeeth's College of Engineering, New Delhi since its
-        establishment in 1999, has strived to provide the best engineering
-        education, its students, through well-qualified and dedicated faculty.
-        The college is affiliated with Guru Gobind Singh Indraprastha University
-        (GGSIPU), New Delhi, and is considered one of the leading institutes for
-        engineering in the city. Currently, BVCOE offers various courses like
-        B.Tech, BBA, BCA, MBA, MCA. The college consists of many technical and
-        non-technical societies like BVPIEEE, ISTE, ACM, CSI, Enactus,
-        Eduminerva, DAS, EDC, Zaahir, etc. Students working/volunteering under
-        these societies are very active in social and cultural events and are
-        readily involved in social or educational volunteering across the city.
-      </p>
-      <p>
-        <u>VISION</u>: The vision of the college is to continuously exceed and
-        thus coming together enlivens the research themes, creates awareness
-        about upcoming technologies, and provides a platform to budding research
-        workers for producing their significant place in the scientific
-        community. Not only that, the premium institute focuses on the overall
-        development of their students and faculties by having various technical
-        and social gatherings all year round.
+        TEDxBVCOE is an initiative that aims to ignite and magnify the wealth of
+        knowledge of youthful minds. It incites them to unravel their true
+        potential, explore beyond the possible and redefine definitions. At
+        TEDxBVCOE, we believe in exploring new ideas worth spreading because
+        ideas are the beginning points of all fortunes. TEDxBVCOE believes that
+        ‘Certainty in Uncertainty‘ is an assumption for particular work or
+        things and certainty cannot be found in our uncertain world but in your
+        willingness to trust yourself.
       </p>
     </>
   );

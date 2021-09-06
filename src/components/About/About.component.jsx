@@ -2,7 +2,11 @@ import { useState } from 'react';
 import ProgressiveImage from 'react-progressive-image';
 import Fade from 'react-reveal/Fade';
 
-import { TEDxEventInfo, TEDEventInfo, BVCOEInfo } from '../../data/about.data';
+import {
+  TEDxEventInfo,
+  TEDEventInfo,
+  TEDxBVCOEInfo
+} from '../../data/about.data';
 
 import placeholderImage from '../../assets/about-section/blur-placeholder.jpg';
 import TEDxLogoImage from '../../assets/about-section/tedx-logo.jpg';
@@ -43,7 +47,7 @@ const SelectedTabImage = ({ tab }) => {
         </ProgressiveImage>
       );
 
-    case 'BVCOE':
+    case 'TEDxBVCOE':
       return (
         <ProgressiveImage src={BVCOEImage} placeholder={placeholderImage}>
           {(src, loading) => (
@@ -71,8 +75,8 @@ const SelectedTabContent = ({ tab }) => {
     case 'TED':
       return <TEDEventInfo />;
 
-    case 'BVCOE':
-      return <BVCOEInfo />;
+    case 'TEDxBVCOE':
+      return <TEDxBVCOEInfo />;
 
     default:
       return null;
@@ -104,8 +108,8 @@ const About = () => {
               <h2>TEDx</h2>
             </button>
             <button
-              className={currentTab === 'BVCOE' ? 'selected' : ''}
-              onClick={() => setCurrentTab('BVCOE')}
+              className={currentTab === 'TEDxBVCOE' ? 'selected' : ''}
+              onClick={() => setCurrentTab('TEDxBVCOE')}
             >
               <h2>TEDxBVCOE</h2>
             </button>
