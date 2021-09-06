@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-// import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -15,12 +15,12 @@ const SponsorUs = () => {
   }, []);
 
   const onClickHandler = () => {
-    // ReactGA.event({
-    //   category: 'Button Clicks',
-    //   action: "'Apply for Sponsorship' Button Click",
-    //   label: "User clicked on 'Apply for Sponsorship' button"
-    // });
-    // window.open('https://bit.ly/tedx-speaker-form', '_blank');
+    ReactGA.event({
+      category: 'Button Clicks',
+      action: "'Apply for Sponsorship' Button Click",
+      label: "User clicked on 'Apply for Sponsorship' button"
+    });
+    window.open('https://forms.gle/RNpNpoACcPMK4QxFA', '_blank');
   };
 
   return (
