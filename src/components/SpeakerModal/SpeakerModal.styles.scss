@@ -1,0 +1,66 @@
+.speaker-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-modal-content {
+  width: 90vw;
+  height: auto;
+  max-width: 550px;
+  max-height: 78vh;
+  background-color: #202020;
+  border: 2px solid darken(#ff4929, 25%);
+  border-radius: 18px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  padding: 16px 32px 24px;
+  overflow: scroll;
+
+  .speaker-info-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+    .display-pic {
+      img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 3px solid darken(#ff4929, 20%);
+
+        @media only screen and (max-width: 768px) {
+          width: 140px;
+          height: 140px;
+        }
+
+        @media only screen and (max-width: 425px) {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+
+    .name {
+      font-size: 1.4rem;
+    }
+
+    .profession {
+      font-size: 1.2rem;
+      color: #ff4929;
+    }
+
+    .bio {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      letter-spacing: 0.8px;
+      color: #fdfdfd;
+      // text-align: justify;
+    }
+  }
+}

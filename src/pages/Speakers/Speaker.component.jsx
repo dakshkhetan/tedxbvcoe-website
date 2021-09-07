@@ -9,8 +9,15 @@ import {
 import DisplayImagePlaceholder from '../../assets/team/placeholder.png';
 // import { ReactComponent as Divider } from '../../assets/illustrations/section-divider.svg';
 
-const Speaker = ({ speaker }) => {
-  const { id, name, profession, socials, bio, image } = speaker;
+function truncate(str) {
+  if (str.length <= 460) {
+    return str;
+  }
+  return str.slice(0, 460) + '...';
+}
+
+const Speaker = ({ speaker, triggerModal }) => {
+  const { id, name, profession, socials, shortBio, image } = speaker;
 
   return (
     <>
@@ -77,7 +84,16 @@ const Speaker = ({ speaker }) => {
         </Fade>
 
         <Fade delay={300}>
-          <div className='bio'>{bio}</div>
+          <div className='bio'>{truncate(shortBio)}</div>
+        </Fade>
+
+        <Fade delay={300}>
+          <button
+            className='read-more-btn'
+            onClick={() => triggerModal(speaker)}
+          >
+            Read more
+          </button>
         </Fade>
       </div>
 

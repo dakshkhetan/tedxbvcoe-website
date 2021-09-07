@@ -100,6 +100,19 @@
       text-align: justify;
     }
 
+    button.read-more-btn {
+      font-family: 'Open Sans', sans-serif;
+      border: none;
+      border-radius: 4px;
+      background-color: #ff4929;
+      color: #fff;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      padding: 4px 8px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
     .divider-container {
       display: flex;
       flex-direction: column;
