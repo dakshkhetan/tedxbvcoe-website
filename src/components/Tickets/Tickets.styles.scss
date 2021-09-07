@@ -20,11 +20,18 @@
     padding-bottom: 60px;
 
     .tickets-container {
-      width: 100%;
       max-width: 1250px;
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
+
+      // width: 100%;
+      // display: flex;
+      // justify-content: space-evenly;
+      // flex-wrap: wrap;
+
+      width: fit-content;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      grid-gap: 15px;
 
       .ticket {
         width: 380px;
@@ -77,8 +84,20 @@
           background-color: #272727;
           padding: 20px;
 
+          min-height: 230px;
+          justify-content: space-between;
+
           .description {
             // text-align: justify;
+
+            ul {
+              margin: 0;
+              padding-left: 20px;
+
+              li {
+                font-size: 1.1rem;
+              }
+            }
 
             p {
               font-size: 1.1rem;
@@ -133,7 +152,7 @@
 
     .section-content {
       .tickets-container {
-        width: 75%;
+        width: 85%;
 
         .ticket {
           width: 100%;
@@ -146,6 +165,7 @@
     .section-content {
       .tickets-container {
         width: 95%;
+        grid-template-columns: 1fr;
 
         .ticket {
           width: 95%;

@@ -26,16 +26,14 @@ const Ticket = ({ ticket: { category, price, description, paymentLink } }) => {
 
           <div className='price'>
             <Fade delay={250}>
-              <h3>₹{price}</h3>
+              <h3>{price !== '0' ? `₹${price}` : 'FREE'}</h3>
             </Fade>
           </div>
         </div>
 
         <div className='lower'>
           <div className='description'>
-            <Fade delay={250}>
-              <p>{description}</p>
-            </Fade>
+            <Fade delay={250}>{description}</Fade>
           </div>
 
           <div className='payment-link'>
