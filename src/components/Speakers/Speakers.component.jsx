@@ -44,6 +44,10 @@ const Speakers = () => {
           </div>
         </Fade>
 
+        <Fade bottom delay={250}>
+          <h2 className='text'>and many more...</h2>
+        </Fade>
+
         <Fade bottom delay={350}>
           <div className='btn-container'>
             <span className='btn-link' onClick={onClickHandler}>

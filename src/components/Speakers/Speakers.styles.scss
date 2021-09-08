@@ -57,8 +57,14 @@
       }
     }
 
+    h2.text {
+      font-size: 1.2rem;
+      color: #e6e6e6;
+      margin-top: 30px;
+    }
+
     .btn-container {
-      margin-top: 100px;
+      margin-top: 50px;
 
       .btn-link {
         background-color: #131313;
@@ -118,6 +124,10 @@
           left: 150px;
         }
       }
+
+      .btn-container {
+        margin-top: 40px;
+      }
     }
   }
 
@@ -137,6 +147,15 @@
         .img-3 {
           left: 120px;
         }
+      }
+
+      h2.text {
+        font-size: 1rem;
+        margin-top: 15px;
+      }
+
+      .btn-container {
+        margin-top: 35px;
       }
     }
   }

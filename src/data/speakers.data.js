@@ -1,26 +1,3 @@
-export const speakersCollage = [
-  {
-    id: 1,
-    position: 'top-left',
-    image: require('../assets/speakers/placeholder.png').default
-  },
-  {
-    id: 2,
-    position: 'top-right',
-    image: require('../assets/speakers/placeholder.png').default
-  },
-  {
-    id: 3,
-    position: 'bottom-left',
-    image: require('../assets/speakers/placeholder.png').default
-  },
-  {
-    id: 4,
-    position: 'bottom-right',
-    image: require('../assets/speakers/placeholder.png').default
-  }
-];
-
 export const speakers = [
   {
     id: '1',
@@ -474,4 +451,31 @@ export const speakers = [
   //     </>
   //   )
   // },
+];
+
+export const speakersCollage = [
+  {
+    id: 1,
+    position: 'top-left',
+    // image: require('../assets/speakers/placeholder.png').default,
+    image: speakers[2].image
+  },
+  {
+    id: 2,
+    position: 'top-right',
+    // image: require('../assets/speakers/placeholder.png').default,
+    image: speakers[4].image
+  },
+  {
+    id: 3,
+    position: 'bottom-left',
+    // image: require('../assets/speakers/placeholder.png').default,
+    image: speakers[0].image
+  },
+  {
+    id: 4,
+    position: 'bottom-right',
+    // image: require('../assets/speakers/placeholder.png').default,
+    image: speakers[1].image
+  }
 ];
