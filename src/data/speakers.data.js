@@ -31,7 +31,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/daniel.jpg').default,
     shortBio:
       'Daniel Sinnathamby is a humanitarian and development professional with over 30 years of strategic leadership, organizational development, and program management experience with international humanitarian and development agencies and networks. He has worked in Asia and Africa and has been responsible for program delivery in over 28 countries. He believes that everyone should be able to take part in and benefit from their country’s development. Economic growth fairly and transparently drives his work and aspirations. He has committed himself to ensure the realization of rights and entitlements, especially for women, girls, and young people. This commitment also includes working towards the effectiveness of institutions and movements which represent them.',
     longBio: (
@@ -93,7 +93,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/aanya.jpg').default,
     shortBio:
       'Aanya is a recent graduate from LSR. She is a SUSI scholar, being one of the four girls nominated to represent India. She is Co-Founder of Covid Fighters India, one of the largest COVID relief initiatives in the country which came up during the second wave. She is also Co-Founder of GirlUp Rise, a UN foundation collaboration to empower women across the world, and a member of the WICCI Anti Sexual Harassment Council Delhi. She is also Co-Founder of GirlUp Rise, a UN foundation collaboration to empower women across the world, and a member of the WICCI Anti Sexual Harassment Council Delhi.',
     longBio: (
@@ -132,7 +132,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/ronit.jpg').default,
     shortBio:
       'Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty Mustang”. He is a Life and Executive Coach, NLP Practitioner, Corporate Wellness Specialist. Ronit is very passionate about Mental Health Awareness. He has raised a petition to incorporate a mandatory mental health curriculum (non-graded) in Indian schools. In support of the petition, Ronit walked solo across India (Kanyakumari to Kashmir) and became the youngest person in the world to do so.',
     longBio: (
@@ -171,7 +171,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/jatin.jpg').default,
     shortBio:
       'Jatin Kataria is a GloCal Serial entrepreneur, Innovation & Reinvention specialist who has been active in the global startup ecosystem for 10+ years, worked with 40+ countries, having a network in 100+ countries, represented India 10+ times, and has featured in 50+ media platforms globally like ET, Doordarshan, TOI, Delo, UNI, BBC, etc. He has received 15+ awards like the WYS award to convert UN development goals into action & Karmaveer Chakra, been into 100 Saarc youth leaders & Top20 of Techstars Apac ecosystem developers.',
     longBio: (
@@ -226,7 +226,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/niyati.jpg').default,
     shortBio:
       'Niyati Sharma is the Founder and Executive Director of Pratisandhi Foundation, a student-led non-profit organization dedicated to the sexual health and education of Indian adolescents and youth. Her team has positively impacted over 15,000 individuals through direct and indirect interventions. They have been featured by various media platforms such as Femina India, Indian Express, NDTV, and The Quint, among others. Most recently, Niyati was featured as a ‘30 under 30’ young entrepreneur at the i5 Sumit by IIM Indore.',
     longBio: (
@@ -265,7 +265,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/ashish.jpg').default,
     shortBio:
       "Ashish Sahoo is the Founding Member of The Maze Collective Studio, an independent space that facilitates collaboration between photographers all around the world by providing in-house residency and an analogue facility. Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A (College Of Art) after finishing his B.F.A., where he began experimenting with materials, ranging from video to sound. His works are mostly interactive, as he likes his audience to be active participants in his work.",
     longBio: (
@@ -310,7 +310,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/tuhina.jpg').default,
     shortBio:
       'Tuhina Pandey is the Head of Communications for IBM India and South Asia. Before IBM, she worked at Tech Mahindra as the Head of Global Corporate Communications and Public Affairs. Tuhina was the Vice President at Media Training Worldwide, and Associate Editor at Aegis News Network. Tuhina has also worked as an anchor and a business journalist for NDTV PROFIT and NDTV as an Associate Editor – Technology. She also founded and curated com.in, a well-known and renowned specialist firm that worked with CEOs, CXOs, and Board Members on executive and leadership communications. Her diverse professional background includes Business Journalism, Media Training, Executive and Leadership Communication, Marketing, Corporate Communication, Digital Communication, and Business Intelligence, Analytics consulting, and sales across industries.',
     longBio: (
@@ -366,7 +366,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/deepak.jpg').default,
     shortBio:
       'Deepak Justin is a Corporate Trainer, a Motivational Speaker, and a Filmmaker. He is known for his quick and easy speaking that has earned him the sobriquet, “The Silver Tongued Orator”. He did his BSc. from Loyola College and holds an M.A. in English and an M.B.A. in Marketing. He has Post Graduate Diplomas in Advertising & Public Relations from Madras Christian College and in Training & development in which was a Gold Medalist and an All India Topper respectively.',
     longBio: (
@@ -410,7 +410,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/nupur.jpg').default,
     shortBio:
       'Nupur Agarwal is a serial Social Entrepreneur, Changemaker, and Musician, She is passionate about creating empowered communities. She is the founder and president of the Evolve Foundation, a social enterprise that focuses on creating smart and sustainable Indian rural villages and has developed a Plantable Stationery cottage industry, while also promoting eco-tourism. She also co-founded the Kisan Window, a fair trade organic food brand that has tie-ups with International businesses in UAE and Europe. Dehradun Drum Circle which is a community of people who stand for self-expression through arts and a discrimination-free society was founded and is facilitated by her.',
     longBio: (
@@ -456,7 +456,7 @@ export const speakers = [
       instagramURL: 'https://instagram.com/',
       twitterURL: 'https://twitter.com/'
     },
-    image: require('../assets/speakers/placeholder.png').default,
+    image: require('../assets/speakers/sargam.jpg').default,
     shortBio:
       'Sargam Dhawan Bhayana is a young entrepreneur with a bag full of awards under her belt. She began her journey at the age of 22 to start a hair, skin, and beauty business while keeping her passion for the environment, her social consciousness, and her drive for a zero-waste policy, along with her strong value system as her driving force. She believes in innovation and has successfully launched products that appeal to Gen Z and the Millennials because of their progressive and sustainable aesthetics.',
     longBio: (
