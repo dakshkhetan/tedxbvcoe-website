@@ -25,11 +25,11 @@ export const speakers = [
   {
     id: '1',
     name: 'Daniel Sinnathamby',
-    profession: 'Profession',
+    profession:
+      'Humanitarian & Social Purpose Leadership & Management Professional',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/danielsinnathamby',
+      instagramURL: 'https://instagram.com/danielsinnathamby'
     },
     image: require('../assets/speakers/daniel.jpg').default,
     shortBio:
@@ -87,11 +87,10 @@ export const speakers = [
   {
     id: '2',
     name: 'Aanya Wig',
-    profession: 'Profession',
+    profession: 'Founder of Covid Fighters India',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/aanya-wig-b76913180',
+      instagramURL: 'https://instagram.com/aanyawigg'
     },
     image: require('../assets/speakers/aanya.jpg').default,
     shortBio:
@@ -126,11 +125,10 @@ export const speakers = [
   {
     id: '3',
     name: 'Ronit Ranjan',
-    profession: 'Profession',
+    profession: 'Life and Executive Coach',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/ronit-ranjan-1971791b5',
+      instagramURL: 'https://instagram.com/_ronitranjan_'
     },
     image: require('../assets/speakers/ronit.jpg').default,
     shortBio:
@@ -165,11 +163,10 @@ export const speakers = [
   {
     id: '4',
     name: 'Jatin Kataria',
-    profession: 'Profession',
+    profession: 'Serial Entrepreneur',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/jatinkataria',
+      instagramURL: ''
     },
     image: require('../assets/speakers/jatin.jpg').default,
     shortBio:
@@ -220,11 +217,10 @@ export const speakers = [
   {
     id: '5',
     name: 'Niyati Sharma',
-    profession: 'Profession',
+    profession: 'Founder of Pratisandhi Foundation',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/niyatisharma492',
+      instagramURL: 'https://instagram.com/niyatisharma492'
     },
     image: require('../assets/speakers/niyati.jpg').default,
     shortBio:
@@ -258,57 +254,11 @@ export const speakers = [
   },
   {
     id: '6',
-    name: 'Ashish Sahoo',
-    profession: 'Profession',
-    socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
-    },
-    image: require('../assets/speakers/ashish.jpg').default,
-    shortBio:
-      "Ashish Sahoo is the Founding Member of The Maze Collective Studio, an independent space that facilitates collaboration between photographers all around the world by providing in-house residency and an analogue facility. Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A (College Of Art) after finishing his B.F.A., where he began experimenting with materials, ranging from video to sound. His works are mostly interactive, as he likes his audience to be active participants in his work.",
-    longBio: (
-      <>
-        <p>
-          Ashish Sahoo is the Founding Member of The Maze Collective Studio, an
-          independent space that facilitates collaboration between photographers
-          all around the world by providing in-house residency and an analogue
-          facility.
-        </p>
-        <p>
-          Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala
-          Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A
-          (College Of Art) after finishing his B.F.A., where he began
-          experimenting with materials, ranging from video to sound. His works
-          are mostly interactive, as he likes his audience to be active
-          participants in his work.
-        </p>
-        <p>
-          Ashish was born into a family of filmmakers in Orissa and grew up
-          surrounded by celluloid cans and chemicals. He began experimenting
-          with various early photography techniques after earning a B.F.A. in
-          sculpture from Shantiniketan, where he was introduced to the history
-          of art and photography. He studied wet plate collodion glass
-          Negatives, a mid-eighteenth-century photographic process. He only
-          shoots film and alternate processes.
-        </p>
-        <p>
-          His recent projects have attempted a hybrid of photography, art, and
-          collaboration, with a strong contextual reference to contemporary
-          urban narratives and the politics that surround them.
-        </p>
-      </>
-    )
-  },
-  {
-    id: '7',
     name: 'Tuhina Pandey',
-    profession: 'Profession',
+    profession: 'Head of Communications for IBM India & South Asia',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/tuhina-pandey-tp19',
+      instagramURL: 'https://instagram.com/tuhina_pandey_tp'
     },
     image: require('../assets/speakers/tuhina.jpg').default,
     shortBio:
@@ -358,13 +308,12 @@ export const speakers = [
     )
   },
   {
-    id: '8',
+    id: '7',
     name: 'Deepak Justin',
-    profession: 'Profession',
+    profession: 'Corporate Trainer and Motivational Speaker',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/deepak-justin-9a253513',
+      instagramURL: 'https://instagram.com/deejaybytes'
     },
     image: require('../assets/speakers/deepak.jpg').default,
     shortBio:
@@ -402,13 +351,12 @@ export const speakers = [
     )
   },
   {
-    id: '9',
+    id: '8',
     name: 'Nupur Agarwal',
-    profession: 'Profession',
+    profession: 'Serial Social Entrepreneur',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/nupuragarwal20',
+      instagramURL: 'https://instagram.com/nupuragarwal20'
     },
     image: require('../assets/speakers/nupur.jpg').default,
     shortBio:
@@ -448,13 +396,13 @@ export const speakers = [
     )
   },
   {
-    id: '10',
+    id: '9',
     name: 'Sargam Dhawan Bhayana',
-    profession: 'Profession',
+    profession:
+      'Director at Tressmart Marketing Pvt Ltd & Paul Penders Botanicals India Pvt Ltd',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/'
+      linkedInURL: 'https://linkedin.com/in/sargam-dhawan-bhayana-373893148',
+      instagramURL: 'https://instagram.com/sargamdhawanbhayana'
     },
     image: require('../assets/speakers/sargam.jpg').default,
     shortBio:
@@ -482,4 +430,48 @@ export const speakers = [
       </>
     )
   }
+  // {
+  //   id: '10',
+  //   name: 'Ashish Sahoo',
+  //   profession: 'Profession',
+  //   socials: {
+  //     linkedInURL: 'https://linkedin.com/in/',
+  //     instagramURL: 'https://instagram.com/'
+  //   },
+  //   image: require('../assets/speakers/placeholder.png').default,
+  //   shortBio:
+  //     "Ashish Sahoo is the Founding Member of The Maze Collective Studio, an independent space that facilitates collaboration between photographers all around the world by providing in-house residency and an analogue facility. Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A (College Of Art) after finishing his B.F.A., where he began experimenting with materials, ranging from video to sound. His works are mostly interactive, as he likes his audience to be active participants in his work.",
+  //   longBio: (
+  //     <>
+  //       <p>
+  //         Ashish Sahoo is the Founding Member of The Maze Collective Studio, an
+  //         independent space that facilitates collaboration between photographers
+  //         all around the world by providing in-house residency and an analogue
+  //         facility.
+  //       </p>
+  //       <p>
+  //         Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala
+  //         Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A
+  //         (College Of Art) after finishing his B.F.A., where he began
+  //         experimenting with materials, ranging from video to sound. His works
+  //         are mostly interactive, as he likes his audience to be active
+  //         participants in his work.
+  //       </p>
+  //       <p>
+  //         Ashish was born into a family of filmmakers in Orissa and grew up
+  //         surrounded by celluloid cans and chemicals. He began experimenting
+  //         with various early photography techniques after earning a B.F.A. in
+  //         sculpture from Shantiniketan, where he was introduced to the history
+  //         of art and photography. He studied wet plate collodion glass
+  //         Negatives, a mid-eighteenth-century photographic process. He only
+  //         shoots film and alternate processes.
+  //       </p>
+  //       <p>
+  //         His recent projects have attempted a hybrid of photography, art, and
+  //         collaboration, with a strong contextual reference to contemporary
+  //         urban narratives and the politics that surround them.
+  //       </p>
+  //     </>
+  //   )
+  // },
 ];
