@@ -33,9 +33,9 @@ class SideDrawer extends React.Component {
           <span className='option' onClick={() => scrollToTop()}>
             Home
           </span>
-          {/* <span className='option' onClick={() => onClickHandler('speakers')}>
+          <span className='option' onClick={() => onClickHandler('speakers')}>
             Speakers
-          </span> */}
+          </span>
           {/* <span className='option' onClick={() => onClickHandler('tickets')}>
             Tickets
           </span> */}
