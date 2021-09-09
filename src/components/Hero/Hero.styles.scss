@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
 
+  // background-image: url('../../assets/hero/background-image.jpg');
+
   .logo-container {
     width: 90%;
 
@@ -18,6 +20,21 @@
     img {
       width: 100%;
       height: auto;
+
+      &.logo-desktop {
+        display: block;
+      }
+
+      &.logo-mobile {
+        display: none;
+      }
+    }
+
+    video {
+      // TODO: use commented value
+      height: 95%;
+      margin-top: -30px;
+      // height: 100%;
 
       &.logo-desktop {
         display: block;
@@ -86,7 +103,7 @@
     .logo-container {
       // TODO: use commented value
       height: 100%;
-      //  height: 57%;
+      // height: 57%;
     }
 
     .content {
@@ -127,6 +144,20 @@
       margin-top: -20px;
 
       img {
+        &.logo-desktop {
+          display: none;
+        }
+
+        &.logo-mobile {
+          display: block;
+        }
+      }
+
+      video {
+        // TODO: use commented value
+        height: 97%;
+        // height: 90%;
+
         &.logo-desktop {
           display: none;
         }

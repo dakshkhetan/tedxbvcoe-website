@@ -12,6 +12,8 @@ import logoDesktopCompressed from '../../assets/logo/logo-long-compressed.png';
 import logoMobile from '../../assets/logo/tedxbvcoe-logo_short.jpg';
 import logoDesktop from '../../assets/logo/tedxbvcoe-logo_long.jpg';
 
+import themeVideoClip from '../../assets/hero/theme-video-clip.mp4';
+
 import './Hero.styles.scss';
 
 const Hero = () => {
@@ -24,25 +26,47 @@ const Hero = () => {
             placeholder={logoDesktopCompressed}
           >
             {(src) => (
-              <img
-                className='logo-desktop'
-                src={src}
-                alt='TEDxBVCOE logo'
-                width='928'
-                height='240'
-              />
+              <>
+                {/* <img
+                  className='logo-desktop'
+                  src={src}
+                  alt='TEDxBVCOE logo'
+                  width='928'
+                  height='240'
+                /> */}
+                <video
+                  className='logo-desktop'
+                  src={themeVideoClip}
+                  poster={src}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
+              </>
             )}
           </ProgressiveImage>
 
           <ProgressiveImage src={logoMobile} placeholder={logoMobileCompressed}>
             {(src) => (
-              <img
-                className='logo-mobile'
-                src={src}
-                alt='TEDxBVCOE logo'
-                width='340'
-                height='285'
-              />
+              <>
+                {/* <img
+                  className='logo-mobile'
+                  src={src}
+                  alt='TEDxBVCOE logo'
+                  width='340'
+                  height='285'
+                /> */}
+                <video
+                  className='logo-mobile'
+                  src={themeVideoClip}
+                  poster={src}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
+              </>
             )}
           </ProgressiveImage>
         </div>
