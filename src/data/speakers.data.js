@@ -63,82 +63,51 @@ export const speakers = [
   },
   {
     id: '2',
-    name: 'Aanya Wig',
-    profession: 'Founder of Covid Fighters India',
+    name: 'Nupur Agarwal',
+    profession: 'Serial Social Entrepreneur',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/aanya-wig-b76913180',
-      instagramURL: 'https://instagram.com/aanyawigg'
+      linkedInURL: 'https://linkedin.com/in/nupuragarwal20',
+      instagramURL: 'https://instagram.com/nupuragarwal20'
     },
-    image: require('../assets/speakers/aanya.jpg').default,
+    image: require('../assets/speakers/nupur.jpg').default,
     shortBio:
-      'Aanya is a recent graduate from LSR. She is a SUSI scholar, being one of the four girls nominated to represent India. She is Co-Founder of Covid Fighters India, one of the largest COVID relief initiatives in the country which came up during the second wave. She is also Co-Founder of GirlUp Rise, a UN foundation collaboration to empower women across the world, and a member of the WICCI Anti Sexual Harassment Council Delhi. She is also Co-Founder of GirlUp Rise, a UN foundation collaboration to empower women across the world, and a member of the WICCI Anti Sexual Harassment Council Delhi.',
+      'Nupur Agarwal is a serial Social Entrepreneur, Changemaker, and Musician, She is passionate about creating empowered communities. She is the founder and president of the Evolve Foundation, a social enterprise that focuses on creating smart and sustainable Indian rural villages and has developed a Plantable Stationery cottage industry, while also promoting eco-tourism. She also co-founded the Kisan Window, a fair trade organic food brand that has tie-ups with International businesses in UAE and Europe. Dehradun Drum Circle which is a community of people who stand for self-expression through arts and a discrimination-free society was founded and is facilitated by her.',
     longBio: (
       <>
         <p>
-          Aanya is a recent graduate from LSR. She is a SUSI scholar, being one
-          of the four girls nominated to represent India. She is Co-Founder of
-          Covid Fighters India, one of the largest COVID relief initiatives in
-          the country which came up during the second wave.
+          Nupur Agarwal is a serial Social Entrepreneur, Changemaker, and
+          Musician, She is passionate about creating empowered communities. She
+          is the founder and president of the Evolve Foundation, a social
+          enterprise that focuses on creating smart and sustainable Indian rural
+          villages and has developed a Plantable Stationery cottage industry,
+          while also promoting eco-tourism. She also co-founded the Kisan
+          Window, a fair trade organic food brand that has tie-ups with
+          International businesses in UAE and Europe. Dehradun Drum Circle which
+          is a community of people who stand for self-expression through arts
+          and a discrimination-free society was founded and is facilitated by
+          her.
         </p>
         <p>
-          She is also Co-Founder of GirlUp Rise, a UN foundation collaboration
-          to empower women across the world, and a member of the WICCI Anti
-          Sexual Harassment Council Delhi.
+          She has worked with the Global Shaper Community of the World Economic
+          Forum and undertook some projects on the psychological and behavioural
+          improvement of inmates at Dehradun district jail. According to her,
+          being a Shaper enhanced her to create local impact with a global
+          outlook.
         </p>
         <p>
-          She has worked as a journalist with The Quint and was the Campus
-          Coordinator with The Jurni.
-        </p>
-        <p>
-          She is the founding project head of Aghaaz, a student-led social
-          entrepreneurship project to empower women by providing them vocational
-          skills and economic independence while following the Sustainable
-          Development Goals. She was also the Volunteer Coordinator for
-          Pratisandhi, a student-led NGO to create sexual health and awareness.
+          Being graduated from Lancaster University in England, Nupur has been
+          interning at the likes of Micromint India, Rural Litigation and
+          Entitlement Kendra (RLEK), Coca Cola India, and Hi-Jinks. She excels
+          at Leadership and Public Speaking and is an innovative individual. She
+          is committed to achieving Social Equality and believes that even one
+          person can bring a difference. She trusts that every small act can
+          help in creating a better world.
         </p>
       </>
     )
   },
   {
     id: '3',
-    name: 'Ronit Ranjan',
-    profession: 'Life and Executive Coach',
-    socials: {
-      linkedInURL: 'https://linkedin.com/in/ronit-ranjan-1971791b5',
-      instagramURL: 'https://instagram.com/_ronitranjan_'
-    },
-    image: require('../assets/speakers/ronit.jpg').default,
-    shortBio:
-      'Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty Mustang”. He is a Life and Executive Coach, NLP Practitioner, Corporate Wellness Specialist. Ronit is very passionate about Mental Health Awareness. He has raised a petition to incorporate a mandatory mental health curriculum (non-graded) in Indian schools. In support of the petition, Ronit walked solo across India (Kanyakumari to Kashmir) and became the youngest person in the world to do so.',
-    longBio: (
-      <>
-        <p>
-          Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty
-          Mustang”. He is a Life and Executive Coach, NLP Practitioner,
-          Corporate Wellness Specialist.
-        </p>
-        <p>
-          Ronit is very passionate about Mental Health Awareness. He has raised
-          a petition to incorporate a mandatory mental health curriculum
-          (non-graded) in Indian schools. In support of the petition, Ronit
-          walked solo across India (Kanyakumari to Kashmir) and became the
-          youngest person in the world to do so.
-        </p>
-        <p>
-          He has been featured by Amazon Prime, The Hindu, The Indian Express,
-          Zee Network, Times of India, TEDx, Brut, Humans of Bombay, The Quint,
-          Radio Stations, ZEE, reputed universities, corporates, magazines, and
-          other media channels in India and abroad.
-        </p>
-        <p>
-          He says, "You can take a soldier out of the army but not the army out
-          of the soldier".
-        </p>
-      </>
-    )
-  },
-  {
-    id: '4',
     name: 'Jatin Kataria',
     profession: 'Serial Entrepreneur',
     socials: {
@@ -192,45 +161,42 @@ export const speakers = [
     )
   },
   {
-    id: '5',
-    name: 'Niyati Sharma',
-    profession: 'Founder of Pratisandhi Foundation',
+    id: '4',
+    name: 'Sargam Dhawan Bhayana',
+    profession:
+      'Director at Tressmart Marketing Pvt Ltd & Paul Penders Botanicals India Pvt Ltd',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/niyatisharma492',
-      instagramURL: 'https://instagram.com/niyatisharma492'
+      linkedInURL: 'https://linkedin.com/in/sargam-dhawan-bhayana-373893148',
+      instagramURL: 'https://instagram.com/sargamdhawanbhayana'
     },
-    image: require('../assets/speakers/niyati.jpg').default,
+    image: require('../assets/speakers/sargam.jpg').default,
     shortBio:
-      'Niyati Sharma is the Founder and Executive Director of Pratisandhi Foundation, a student-led non-profit organization dedicated to the sexual health and education of Indian adolescents and youth. Her team has positively impacted over 15,000 individuals through direct and indirect interventions. They have been featured by various media platforms such as Femina India, Indian Express, NDTV, and The Quint, among others. Most recently, Niyati was featured as a ‘30 under 30’ young entrepreneur at the i5 Sumit by IIM Indore.',
+      'Sargam Dhawan Bhayana is a young entrepreneur with a bag full of awards under her belt. She began her journey at the age of 22 to start a hair, skin, and beauty business while keeping her passion for the environment, her social consciousness, and her drive for a zero-waste policy, along with her strong value system as her driving force. She believes in innovation and has successfully launched products that appeal to Gen Z and the Millennials because of their progressive and sustainable aesthetics.',
     longBio: (
       <>
         <p>
-          Niyati Sharma is the Founder and Executive Director of Pratisandhi
-          Foundation, a student-led non-profit organization dedicated to the
-          sexual health and education of Indian adolescents and youth. Her team
-          has positively impacted over 15,000 individuals through direct and
-          indirect interventions. They have been featured by various media
-          platforms such as Femina India, Indian Express, NDTV, and The Quint,
-          among others. Most recently, Niyati was featured as a ‘30 under 30’
-          young entrepreneur at the i5 Sumit by IIM Indore.
+          Sargam Dhawan Bhayana is a young entrepreneur with a bag full of
+          awards under her belt. She began her journey at the age of 22 to start
+          a hair, skin, and beauty business while keeping her passion for the
+          environment, her social consciousness, and her drive for a zero-waste
+          policy, along with her strong value system as her driving force. She
+          believes in innovation and has successfully launched products that
+          appeal to Gen Z and the Millennials because of their progressive and
+          sustainable aesthetics.
         </p>
         <p>
-          A published author, Niyati has released her book “Under The Carpet:
-          The Sex Ed Everyone Needs” in 2021. She holds an International
-          Certificate of Knowledge in Sexual and Reproductive Healthcare from
-          the Faculty of Sexual and Reproductive Healthcare (FSRH) of the Royal
-          College of Obstetricians and Gynaecologists, along with being a
-          certified sexuality educator. She is also an incoming participant in
-          the upcoming cohort of the Sex Education Initiative Training by the
-          Teachers College, Columbia University, New York. Currently, Niyati is
-          an undergraduate student at the University of British Columbia,
-          Vancouver.
+          Not one to back down, she launched the ViRa Project during the
+          COVID-19 pandemic, a service to help people find employment as well as
+          offer grief counselling to the people who suffered extreme loss during
+          the pandemic. Being a vocal advocate for positive body image and a
+          firm believer in hard work and creative instincts, this is one woman
+          to watch out for.
         </p>
       </>
     )
   },
   {
-    id: '6',
+    id: '5',
     name: 'Tuhina Pandey',
     profession: 'Head of Communications for IBM India & South Asia',
     socials: {
@@ -285,7 +251,7 @@ export const speakers = [
     )
   },
   {
-    id: '7',
+    id: '6',
     name: 'Deepak Justin',
     profession: 'Corporate Trainer and Motivational Speaker',
     socials: {
@@ -328,129 +294,119 @@ export const speakers = [
     )
   },
   {
-    id: '8',
-    name: 'Nupur Agarwal',
-    profession: 'Serial Social Entrepreneur',
+    id: '7',
+    name: 'Ronit Ranjan',
+    profession: 'Life and Executive Coach',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/nupuragarwal20',
-      instagramURL: 'https://instagram.com/nupuragarwal20'
+      linkedInURL: 'https://linkedin.com/in/ronit-ranjan-1971791b5',
+      instagramURL: 'https://instagram.com/_ronitranjan_'
     },
-    image: require('../assets/speakers/nupur.jpg').default,
+    image: require('../assets/speakers/ronit.jpg').default,
     shortBio:
-      'Nupur Agarwal is a serial Social Entrepreneur, Changemaker, and Musician, She is passionate about creating empowered communities. She is the founder and president of the Evolve Foundation, a social enterprise that focuses on creating smart and sustainable Indian rural villages and has developed a Plantable Stationery cottage industry, while also promoting eco-tourism. She also co-founded the Kisan Window, a fair trade organic food brand that has tie-ups with International businesses in UAE and Europe. Dehradun Drum Circle which is a community of people who stand for self-expression through arts and a discrimination-free society was founded and is facilitated by her.',
+      'Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty Mustang”. He is a Life and Executive Coach, NLP Practitioner, Corporate Wellness Specialist. Ronit is very passionate about Mental Health Awareness. He has raised a petition to incorporate a mandatory mental health curriculum (non-graded) in Indian schools. In support of the petition, Ronit walked solo across India (Kanyakumari to Kashmir) and became the youngest person in the world to do so.',
     longBio: (
       <>
         <p>
-          Nupur Agarwal is a serial Social Entrepreneur, Changemaker, and
-          Musician, She is passionate about creating empowered communities. She
-          is the founder and president of the Evolve Foundation, a social
-          enterprise that focuses on creating smart and sustainable Indian rural
-          villages and has developed a Plantable Stationery cottage industry,
-          while also promoting eco-tourism. She also co-founded the Kisan
-          Window, a fair trade organic food brand that has tie-ups with
-          International businesses in UAE and Europe. Dehradun Drum Circle which
-          is a community of people who stand for self-expression through arts
-          and a discrimination-free society was founded and is facilitated by
-          her.
+          Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty
+          Mustang”. He is a Life and Executive Coach, NLP Practitioner,
+          Corporate Wellness Specialist.
         </p>
         <p>
-          She has worked with the Global Shaper Community of the World Economic
-          Forum and undertook some projects on the psychological and behavioural
-          improvement of inmates at Dehradun district jail. According to her,
-          being a Shaper enhanced her to create local impact with a global
-          outlook.
+          Ronit is very passionate about Mental Health Awareness. He has raised
+          a petition to incorporate a mandatory mental health curriculum
+          (non-graded) in Indian schools. In support of the petition, Ronit
+          walked solo across India (Kanyakumari to Kashmir) and became the
+          youngest person in the world to do so.
         </p>
         <p>
-          Being graduated from Lancaster University in England, Nupur has been
-          interning at the likes of Micromint India, Rural Litigation and
-          Entitlement Kendra (RLEK), Coca Cola India, and Hi-Jinks. She excels
-          at Leadership and Public Speaking and is an innovative individual. She
-          is committed to achieving Social Equality and believes that even one
-          person can bring a difference. She trusts that every small act can
-          help in creating a better world.
+          He has been featured by Amazon Prime, The Hindu, The Indian Express,
+          Zee Network, Times of India, TEDx, Brut, Humans of Bombay, The Quint,
+          Radio Stations, ZEE, reputed universities, corporates, magazines, and
+          other media channels in India and abroad.
+        </p>
+        <p>
+          He says, "You can take a soldier out of the army but not the army out
+          of the soldier".
+        </p>
+      </>
+    )
+  },
+  {
+    id: '8',
+    name: 'Niyati Sharma',
+    profession: 'Founder of Pratisandhi Foundation',
+    socials: {
+      linkedInURL: 'https://linkedin.com/in/niyatisharma492',
+      instagramURL: 'https://instagram.com/niyatisharma492'
+    },
+    image: require('../assets/speakers/niyati.jpg').default,
+    shortBio:
+      'Niyati Sharma is the Founder and Executive Director of Pratisandhi Foundation, a student-led non-profit organization dedicated to the sexual health and education of Indian adolescents and youth. Her team has positively impacted over 15,000 individuals through direct and indirect interventions. They have been featured by various media platforms such as Femina India, Indian Express, NDTV, and The Quint, among others. Most recently, Niyati was featured as a ‘30 under 30’ young entrepreneur at the i5 Sumit by IIM Indore.',
+    longBio: (
+      <>
+        <p>
+          Niyati Sharma is the Founder and Executive Director of Pratisandhi
+          Foundation, a student-led non-profit organization dedicated to the
+          sexual health and education of Indian adolescents and youth. Her team
+          has positively impacted over 15,000 individuals through direct and
+          indirect interventions. They have been featured by various media
+          platforms such as Femina India, Indian Express, NDTV, and The Quint,
+          among others. Most recently, Niyati was featured as a ‘30 under 30’
+          young entrepreneur at the i5 Sumit by IIM Indore.
+        </p>
+        <p>
+          A published author, Niyati has released her book “Under The Carpet:
+          The Sex Ed Everyone Needs” in 2021. She holds an International
+          Certificate of Knowledge in Sexual and Reproductive Healthcare from
+          the Faculty of Sexual and Reproductive Healthcare (FSRH) of the Royal
+          College of Obstetricians and Gynaecologists, along with being a
+          certified sexuality educator. She is also an incoming participant in
+          the upcoming cohort of the Sex Education Initiative Training by the
+          Teachers College, Columbia University, New York. Currently, Niyati is
+          an undergraduate student at the University of British Columbia,
+          Vancouver.
         </p>
       </>
     )
   },
   {
     id: '9',
-    name: 'Sargam Dhawan Bhayana',
-    profession:
-      'Director at Tressmart Marketing Pvt Ltd & Paul Penders Botanicals India Pvt Ltd',
+    name: 'Aanya Wig',
+    profession: 'Founder of Covid Fighters India',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/sargam-dhawan-bhayana-373893148',
-      instagramURL: 'https://instagram.com/sargamdhawanbhayana'
+      linkedInURL: 'https://linkedin.com/in/aanya-wig-b76913180',
+      instagramURL: 'https://instagram.com/aanyawigg'
     },
-    image: require('../assets/speakers/sargam.jpg').default,
+    image: require('../assets/speakers/aanya.jpg').default,
     shortBio:
-      'Sargam Dhawan Bhayana is a young entrepreneur with a bag full of awards under her belt. She began her journey at the age of 22 to start a hair, skin, and beauty business while keeping her passion for the environment, her social consciousness, and her drive for a zero-waste policy, along with her strong value system as her driving force. She believes in innovation and has successfully launched products that appeal to Gen Z and the Millennials because of their progressive and sustainable aesthetics.',
+      'Aanya is a recent graduate from LSR. She is a SUSI scholar, being one of the four girls nominated to represent India. She is Co-Founder of Covid Fighters India, one of the largest COVID relief initiatives in the country which came up during the second wave. She is also Co-Founder of GirlUp Rise, a UN foundation collaboration to empower women across the world, and a member of the WICCI Anti Sexual Harassment Council Delhi. She is also Co-Founder of GirlUp Rise, a UN foundation collaboration to empower women across the world, and a member of the WICCI Anti Sexual Harassment Council Delhi.',
     longBio: (
       <>
         <p>
-          Sargam Dhawan Bhayana is a young entrepreneur with a bag full of
-          awards under her belt. She began her journey at the age of 22 to start
-          a hair, skin, and beauty business while keeping her passion for the
-          environment, her social consciousness, and her drive for a zero-waste
-          policy, along with her strong value system as her driving force. She
-          believes in innovation and has successfully launched products that
-          appeal to Gen Z and the Millennials because of their progressive and
-          sustainable aesthetics.
+          Aanya is a recent graduate from LSR. She is a SUSI scholar, being one
+          of the four girls nominated to represent India. She is Co-Founder of
+          Covid Fighters India, one of the largest COVID relief initiatives in
+          the country which came up during the second wave.
         </p>
         <p>
-          Not one to back down, she launched the ViRa Project during the
-          COVID-19 pandemic, a service to help people find employment as well as
-          offer grief counselling to the people who suffered extreme loss during
-          the pandemic. Being a vocal advocate for positive body image and a
-          firm believer in hard work and creative instincts, this is one woman
-          to watch out for.
+          She is also Co-Founder of GirlUp Rise, a UN foundation collaboration
+          to empower women across the world, and a member of the WICCI Anti
+          Sexual Harassment Council Delhi.
+        </p>
+        <p>
+          She has worked as a journalist with The Quint and was the Campus
+          Coordinator with The Jurni.
+        </p>
+        <p>
+          She is the founding project head of Aghaaz, a student-led social
+          entrepreneurship project to empower women by providing them vocational
+          skills and economic independence while following the Sustainable
+          Development Goals. She was also the Volunteer Coordinator for
+          Pratisandhi, a student-led NGO to create sexual health and awareness.
         </p>
       </>
     )
   }
-  // {
-  //   id: '10',
-  //   name: 'Ashish Sahoo',
-  //   profession: 'Profession',
-  //   socials: {
-  //     linkedInURL: 'https://linkedin.com/in/',
-  //     instagramURL: 'https://instagram.com/'
-  //   },
-  //   image: require('../assets/speakers/placeholder.png').default,
-  //   shortBio:
-  //     "Ashish Sahoo is the Founding Member of The Maze Collective Studio, an independent space that facilitates collaboration between photographers all around the world by providing in-house residency and an analogue facility. Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A (College Of Art) after finishing his B.F.A., where he began experimenting with materials, ranging from video to sound. His works are mostly interactive, as he likes his audience to be active participants in his work.",
-  //   longBio: (
-  //     <>
-  //       <p>
-  //         Ashish Sahoo is the Founding Member of The Maze Collective Studio, an
-  //         independent space that facilitates collaboration between photographers
-  //         all around the world by providing in-house residency and an analogue
-  //         facility.
-  //       </p>
-  //       <p>
-  //         Delhi-based Sahoo studied sculpture at Visva Bharati University's Kala
-  //         Bhavan in Shantiniketan, India. He moved to New Delhi for his M.F.A
-  //         (College Of Art) after finishing his B.F.A., where he began
-  //         experimenting with materials, ranging from video to sound. His works
-  //         are mostly interactive, as he likes his audience to be active
-  //         participants in his work.
-  //       </p>
-  //       <p>
-  //         Ashish was born into a family of filmmakers in Orissa and grew up
-  //         surrounded by celluloid cans and chemicals. He began experimenting
-  //         with various early photography techniques after earning a B.F.A. in
-  //         sculpture from Shantiniketan, where he was introduced to the history
-  //         of art and photography. He studied wet plate collodion glass
-  //         Negatives, a mid-eighteenth-century photographic process. He only
-  //         shoots film and alternate processes.
-  //       </p>
-  //       <p>
-  //         His recent projects have attempted a hybrid of photography, art, and
-  //         collaboration, with a strong contextual reference to contemporary
-  //         urban narratives and the politics that surround them.
-  //       </p>
-  //     </>
-  //   )
-  // },
 ];
 
 export const speakersCollage = [
@@ -458,13 +414,13 @@ export const speakersCollage = [
     id: 1,
     position: 'top-left',
     // image: require('../assets/speakers/placeholder.png').default,
-    image: speakers[2].image
+    image: speakers[6].image
   },
   {
     id: 2,
     position: 'top-right',
     // image: require('../assets/speakers/placeholder.png').default,
-    image: speakers[4].image
+    image: speakers[7].image
   },
   {
     id: 3,
@@ -476,6 +432,6 @@ export const speakersCollage = [
     id: 4,
     position: 'bottom-right',
     // image: require('../assets/speakers/placeholder.png').default,
-    image: speakers[1].image
+    image: speakers[8].image
   }
 ];
