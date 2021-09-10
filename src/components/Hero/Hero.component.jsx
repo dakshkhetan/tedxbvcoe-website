@@ -83,14 +83,14 @@ const Hero = () => {
 
           <div className='child time-container'>
             <FontAwesomeIcon icon={faClock} className='icon' />
-            <h2 className='time'>From 10:00 AM</h2>
-            <h2 className='time'>to 4:00 PM</h2>
+            <h2 className='time'>10:30am</h2>
+            <h2 className='time'>onwards</h2>
           </div>
 
           <div className='child venue-container'>
             <FontAwesomeIcon icon={faMapMarkerAlt} className='icon' />
+            {/* <h2 className='venue'>Venue</h2> */}
             <h2 className='venue'>Online</h2>
-            <h2 className='venue'>Google Meet</h2>
           </div>
         </div>
       </Fade>

@@ -10,7 +10,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import SideDrawer from '../SideDrawer/SideDrawer.component';
 import Backdrop from '../Backdrop/Backdrop.component';
 
-import logo from '../../assets/logo/tedxbvcoe-logo_long.jpg';
+import logo from '../../assets/logo/tedxbvcoe-header-logo.png';
 
 import './Header.styles.scss';
 
@@ -74,6 +74,9 @@ class Header extends React.Component {
       </Link>
       {/* <Link to='/tickets' className={`${className} hover`}>
         Tickets
+      </Link> */}
+      {/* <Link to='/merch' className={`${className} hover`}>
+        Merch
       </Link> */}
       {/* <Link to='/sponsors' className={`${className} hover`}>
         Sponsors

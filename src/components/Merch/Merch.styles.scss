@@ -1,0 +1,152 @@
+.section-merch {
+  height: auto !important;
+  min-height: 650px;
+  background-color: #000;
+  color: #fff;
+  padding: 0 5%;
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #ff4929;
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+
+    .merch-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      grid-gap: 75px;
+
+      .merch-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .name {
+          h3 {
+            // width: fit-content;
+            background-color: #3e3e3e;
+            border-radius: 8px;
+            color: lighten(#ff4929, 10%);
+            text-transform: uppercase;
+            padding: 5px 10px;
+          }
+        }
+
+        .image {
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+
+          img {
+            width: 100%;
+            border-radius: 8px;
+            border: 2px solid #ff4929;
+          }
+        }
+
+        .price {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 5px;
+
+          h3 {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+              Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+              'Segoe UI Symbol';
+            font-weight: 700;
+            font-size: 30px;
+            color: #fff;
+            margin: 0;
+            margin-right: 5px;
+          }
+
+          h4 {
+            width: 50%;
+            background-color: #3e3e3e;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+            line-height: 1.4;
+            padding: 4px 0px;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .merch-purchase-link {
+      margin-top: 45px;
+
+      .btn-link {
+        background-color: #131313;
+        border: 3px solid #fff;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #fff;
+        padding: 8px 25px;
+        transition: all ease-in-out 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #000;
+          color: #fff;
+          transition: all ease-in-out 0.2s;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+
+    .section-content {
+      .merch-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+
+        .merch-item {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      .merch-container {
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+
+        .merch-item {
+          .price {
+            h3 {
+              font-size: 26px;
+            }
+
+            h4 {
+              font-size: 17px;
+              padding: 3px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ import {
 import placeholderImage from '../../assets/about-section/blur-placeholder.jpg';
 import TEDxLogoImage from '../../assets/about-section/tedx-logo.jpg';
 import TEDLogoImage from '../../assets/about-section/ted-logo.jpg';
-import BVCOEImage from '../../assets/about-section/bvcoe.png';
+import TEDxBVCOELogoImage from '../../assets/about-section/tedxbvcoe-logo.jpg';
 
 import './About.styles.scss';
 
@@ -49,7 +49,10 @@ const SelectedTabImage = ({ tab }) => {
 
     case 'TEDxBVCOE':
       return (
-        <ProgressiveImage src={BVCOEImage} placeholder={placeholderImage}>
+        <ProgressiveImage
+          src={TEDxBVCOELogoImage}
+          placeholder={placeholderImage}
+        >
           {(src, loading) => (
             <img
               className={`${loading ? 'loading' : ''}`}
@@ -84,7 +87,7 @@ const SelectedTabContent = ({ tab }) => {
 };
 
 const About = () => {
-  const [currentTab, setCurrentTab] = useState('TED');
+  const [currentTab, setCurrentTab] = useState('TEDxBVCOE');
 
   return (
     <section id='about' className='section section-about'>

@@ -20,7 +20,7 @@
     padding-bottom: 60px;
 
     .tickets-container {
-      max-width: 1250px;
+      // max-width: 1250px;
 
       // width: 100%;
       // display: flex;
@@ -29,7 +29,7 @@
 
       width: fit-content;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       justify-items: center;
       grid-gap: 15px;
 
@@ -130,6 +130,20 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1700px) {
+    height: auto !important;
+
+    .section-content {
+      .tickets-container {
+        grid-template-columns: 1fr 1fr;
+
+        .ticket {
+          width: 420px;
         }
       }
     }

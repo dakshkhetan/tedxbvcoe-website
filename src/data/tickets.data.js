@@ -17,7 +17,7 @@ export const ticketsDetails = [
   {
     key: '2',
     category: 'Tier 1',
-    price: '100',
+    price: '99',
     paymentLink: 'https://bookmyshow.com',
     description: (
       <>
@@ -30,7 +30,7 @@ export const ticketsDetails = [
   {
     key: '3',
     category: 'Tier 2',
-    price: '300',
+    price: '299',
     paymentLink: 'https://bookmyshow.com',
     description: (
       <>
@@ -47,7 +47,7 @@ export const ticketsDetails = [
   {
     key: '4',
     category: 'Tier 3',
-    price: '600',
+    price: '599',
     paymentLink: 'https://bookmyshow.com',
     description: (
       <>
