@@ -1,4 +1,3 @@
-import ProgressiveImage from 'react-progressive-image';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -7,12 +6,8 @@ import {
   faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons';
 
-import logoMobileCompressed from '../../assets/logo/logo-short-compressed.png';
-import logoDesktopCompressed from '../../assets/logo/logo-long-compressed.png';
-import logoMobile from '../../assets/logo/tedxbvcoe-logo_short.jpg';
-import logoDesktop from '../../assets/logo/tedxbvcoe-logo_long.jpg';
-
 import themeVideoClip from '../../assets/hero/theme-video-clip.mp4';
+import videoPosterDesktop from '../../assets/hero/hero-section-video-poster.jpg';
 
 import './Hero.styles.scss';
 
@@ -21,54 +16,25 @@ const Hero = () => {
     <section id='home' className='section section-hero'>
       <Fade>
         <div className='logo-container'>
-          <ProgressiveImage
-            src={logoDesktop}
-            placeholder={logoDesktopCompressed}
-          >
-            {(src) => (
-              <>
-                {/* <img
-                  className='logo-desktop'
-                  src={src}
-                  alt='TEDxBVCOE logo'
-                  width='928'
-                  height='240'
-                /> */}
-                <video
-                  className='logo-desktop'
-                  src={themeVideoClip}
-                  poster={src}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                />
-              </>
-            )}
-          </ProgressiveImage>
+          <video
+            className='logo-desktop'
+            src={themeVideoClip}
+            poster={videoPosterDesktop}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
 
-          <ProgressiveImage src={logoMobile} placeholder={logoMobileCompressed}>
-            {(src) => (
-              <>
-                {/* <img
-                  className='logo-mobile'
-                  src={src}
-                  alt='TEDxBVCOE logo'
-                  width='340'
-                  height='285'
-                /> */}
-                <video
-                  className='logo-mobile'
-                  src={themeVideoClip}
-                  poster={src}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                />
-              </>
-            )}
-          </ProgressiveImage>
+          <video
+            className='logo-mobile'
+            src={themeVideoClip}
+            poster={videoPosterDesktop}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
         </div>
 
         <div className='content'>
