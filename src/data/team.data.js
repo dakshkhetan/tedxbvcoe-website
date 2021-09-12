@@ -145,15 +145,6 @@ export const TeamData = {
       instagramURL: 'https://instagram.com/aastha402',
       twitterURL: '',
       displayPicSrc: require('../assets/team/aastha.jpg').default
-    },
-    {
-      key: '18',
-      name: 'Ritika Yadav',
-      position: 'Joint Social Media Head',
-      linkedInURL: 'https://linkedin.com/in/ritika-yadav-3184811b8',
-      instagramURL: 'https://instagram.com/riitika_yadav',
-      twitterURL: 'https://twitter.com/Ritika21199418',
-      displayPicSrc: require('../assets/team/ritika.jpg').default
     }
   ]
 };

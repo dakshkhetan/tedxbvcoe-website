@@ -4,7 +4,9 @@ import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
-import { speakersCollage } from '../../data/speakers.data';
+// import { speakersCollage } from '../../data/speakers.data';
+
+import speakersCollage from '../../assets/speakers/collage.png';
 
 import './Speakers.styles.scss';
 
@@ -31,7 +33,7 @@ const Speakers = () => {
       </Fade>
 
       <div className='section-content'>
-        <Fade delay={200}>
+        {/* <Fade delay={200}>
           <div className='container'>
             {speakersCollage.map((speaker) => (
               <img
@@ -42,10 +44,12 @@ const Speakers = () => {
               />
             ))}
           </div>
-        </Fade>
+        </Fade> */}
 
-        <Fade bottom delay={250}>
-          <h2 className='text'>and many more...</h2>
+        <Fade delay={200}>
+          <div className='collage-container'>
+            <img src={speakersCollage} alt='speakers collage' />
+          </div>
         </Fade>
 
         <Fade bottom delay={350}>

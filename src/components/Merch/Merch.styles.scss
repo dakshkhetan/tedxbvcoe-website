@@ -42,7 +42,7 @@
         }
 
         .image {
-          width: 200px;
+          width: 300px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -69,11 +69,11 @@
             font-size: 30px;
             color: #fff;
             margin: 0;
-            margin-right: 5px;
+            margin-right: 12px;
           }
 
           h4 {
-            width: 50%;
+            width: 80%;
             background-color: #3e3e3e;
             border-radius: 8px;
             font-weight: 600;
@@ -81,7 +81,7 @@
             text-align: center;
             color: #fff;
             line-height: 1.4;
-            padding: 4px 0px;
+            padding: 9px;
             margin: 0;
           }
         }
@@ -106,6 +106,20 @@
           background-color: #000;
           color: #fff;
           transition: all ease-in-out 0.2s;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    height: auto !important;
+
+    .section-content {
+      .merch-container {
+        .merch-item {
+          .image {
+            width: 220px;
+          }
         }
       }
     }
@@ -142,7 +156,7 @@
 
             h4 {
               font-size: 17px;
-              padding: 3px 5px;
+              padding: 5px;
             }
           }
         }
