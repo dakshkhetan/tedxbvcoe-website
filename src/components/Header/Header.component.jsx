@@ -1,6 +1,4 @@
 import React from 'react';
-// TODO: use commented out imports once after unhiding sections
-// import { withRouter } from 'react-router-dom';
 import { Link, withRouter } from 'react-router-dom';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
@@ -62,8 +60,6 @@ class Header extends React.Component {
     );
   };
 
-  // TODO: unhide sections
-
   headerOptions = (className) => (
     <>
       <span className={`${className} hover`} onClick={() => this.scrollToTop()}>
@@ -72,15 +68,15 @@ class Header extends React.Component {
       <Link to='/speakers' className={`${className} hover`}>
         Speakers
       </Link>
-      {/* <Link to='/tickets' className={`${className} hover`}>
+      <Link to='/tickets' className={`${className} hover`}>
         Tickets
-      </Link> */}
-      {/* <Link to='/merch' className={`${className} hover`}>
+      </Link>
+      <Link to='/merch' className={`${className} hover`}>
         Merch
-      </Link> */}
-      {/* <Link to='/sponsors' className={`${className} hover`}>
+      </Link>
+      <Link to='/sponsors' className={`${className} hover`}>
         Sponsors
-      </Link> */}
+      </Link>
       {this.headerOption('faq')}
       {this.headerOption('team')}
       {this.headerOption('contact')}

@@ -1,7 +1,9 @@
 import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 
-const Ticket = ({ ticket: { category, price, description, paymentLink } }) => {
+const Ticket = ({
+  ticket: { open, category, price, description, paymentLink }
+}) => {
   const onClickHandler = (tier) => (e) => {
     e.preventDefault();
 
@@ -38,7 +40,11 @@ const Ticket = ({ ticket: { category, price, description, paymentLink } }) => {
 
           <div className='payment-link'>
             <Fade delay={300}>
-              <button onClick={onClickHandler(category)}>Buy Now</button>
+              {!open ? (
+                <button onClick={() => null}>Coming Soon</button>
+              ) : (
+                <button onClick={onClickHandler(category)}>Buy Now</button>
+              )}
             </Fade>
           </div>
         </div>
