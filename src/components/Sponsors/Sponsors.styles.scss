@@ -21,8 +21,8 @@
     .sponsors-container {
       display: grid;
       // TODO:
+      // grid-template-columns: 1fr;
       grid-template-columns: 1fr 1fr;
-      grid-template-columns: 1fr;
       grid-gap: 60px;
       margin-top: 30px;
 
@@ -71,12 +71,12 @@
 
   @media only screen and (max-width: 425px) {
     .section-content {
-      margin-top: -10px;
+      margin-top: -30px;
 
       .sponsors-container {
-        width: 90%;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+        width: 60%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
 
         .sponsor-image {
           width: 95%;
