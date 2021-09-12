@@ -20,7 +20,9 @@
 
     .sponsors-container {
       display: grid;
+      // TODO:
       grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-gap: 60px;
       margin-top: 30px;
 
