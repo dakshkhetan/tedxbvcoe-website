@@ -19,7 +19,7 @@ export const FAQData = [
   },
   {
     question:
-      'I made a mistake buying my pass for the event(s), what do I do now?',
+      'I made a mistake buying my pass for the event(s). What do I do now?',
     answer: 'Will be answered soon!',
     open: false
   },
@@ -32,7 +32,7 @@ export const FAQData = [
   {
     question: 'Will the recorded sessions of TEDxBVCOE be available online?',
     answer:
-      'Yes, the recorded session will be available on TEDx official YouTube channel.',
+      'Yes, the recorded sessions will be available on the TEDx official YouTube channel.',
     open: false
   }
 ];
