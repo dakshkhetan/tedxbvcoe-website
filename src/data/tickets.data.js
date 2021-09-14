@@ -1,10 +1,10 @@
 export const ticketsDetails = [
   {
     key: '1',
-    open: false,
+    open: true,
     category: 'Superfan',
     price: '0',
-    paymentLink: 'https://bookmyshow.com',
+    paymentLink: 'https://forms.gle/y6X54FyjX8dN7wrr7',
     description: (
       <>
         <p>
@@ -18,10 +18,12 @@ export const ticketsDetails = [
   },
   {
     key: '2',
-    open: false,
+    open: true,
     category: 'Standard',
     price: '99',
-    paymentLink: 'https://bookmyshow.com',
+    buttonId: 'standard-access-btn',
+    razorpayPaymentId: 'pl_HxIEHE0ogNcy1Z',
+    // paymentLink: 'https://razorpay.com',
     description: (
       <>
         <ul>
@@ -43,10 +45,12 @@ export const ticketsDetails = [
   },
   {
     key: '3',
-    open: false,
+    open: true,
     category: 'Premium',
     price: '299',
-    paymentLink: 'https://bookmyshow.com',
+    buttonId: 'premium-access-btn',
+    razorpayPaymentId: 'pl_HxIIBerzbgjVHW',
+    // paymentLink: 'https://razorpay.com',
     description: (
       <>
         <ul>
@@ -62,10 +66,12 @@ export const ticketsDetails = [
   },
   {
     key: '4',
-    open: false,
+    open: true,
     category: 'Platinum',
     price: '599',
-    paymentLink: 'https://bookmyshow.com',
+    buttonId: 'platinum-access-btn',
+    razorpayPaymentId: 'pl_HxIMbNhxCkoKGe',
+    // paymentLink: 'https://razorpay.com',
     description: (
       <>
         <ul>

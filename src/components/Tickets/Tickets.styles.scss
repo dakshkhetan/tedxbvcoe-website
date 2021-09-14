@@ -135,6 +135,17 @@
                 color: #fff;
                 transition: all ease-in-out 0.2s;
               }
+
+              // hide default razorpay payment button
+              position: relative;
+              display: flex;
+              justify-content: center;
+              overflow: hidden;
+              form {
+                position: absolute;
+                top: 0;
+                opacity: 0;
+              }
             }
           }
         }
