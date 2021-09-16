@@ -28,7 +28,7 @@ export const speakers = [
     )
   },
   {
-    id: '1',
+    id: '9',
     name: 'Daniel Sinnathamby',
     profession:
       'Humanitarian & Social Purpose Leadership & Management Professional',
@@ -90,7 +90,7 @@ export const speakers = [
     )
   },
   {
-    id: '2',
+    id: '8',
     name: 'Nupur Agarwal',
     profession: 'Serial Social Entrepreneur',
     socials: {
@@ -135,7 +135,7 @@ export const speakers = [
     )
   },
   {
-    id: '3',
+    id: '7',
     name: 'Jatin Kataria',
     profession: 'Serial Entrepreneur',
     socials: {
@@ -189,7 +189,7 @@ export const speakers = [
     )
   },
   {
-    id: '4',
+    id: '6',
     name: 'Sargam Dhawan Bhayana',
     profession:
       'Director at Tressmart Marketing Pvt Ltd & Paul Penders Botanicals India Pvt Ltd',
@@ -279,7 +279,7 @@ export const speakers = [
     )
   },
   {
-    id: '6',
+    id: '4',
     name: 'Deepak Justin',
     profession: 'Corporate Trainer and Motivational Speaker',
     socials: {
@@ -322,45 +322,7 @@ export const speakers = [
     )
   },
   {
-    id: '7',
-    name: 'Ronit Ranjan',
-    profession: 'Life and Executive Coach',
-    socials: {
-      linkedInURL: 'https://linkedin.com/in/ronit-ranjan-1971791b5',
-      instagramURL: 'https://instagram.com/_ronitranjan_'
-    },
-    image: require('../assets/speakers/ronit.jpg').default,
-    shortBio:
-      'Ronit Ranjan, an Ex-Army Cadet is a Life and Executive Coach, NLP Practitioner and Corporate Wellness Specialist. He has been featured by Amazon Prime, The Hindu, TEDx, Brut, Humans of Bombay, The Quint, reputed universities, corporates, magazines, and other media channels in India and abroad. He is also the author of the book “The Mighty Mustang”.',
-    longBio: (
-      <>
-        <p>
-          Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty
-          Mustang”. He is a Life and Executive Coach, NLP Practitioner,
-          Corporate Wellness Specialist.
-        </p>
-        <p>
-          Ronit is very passionate about Mental Health Awareness. He has raised
-          a petition to incorporate a mandatory mental health curriculum
-          (non-graded) in Indian schools. In support of the petition, Ronit
-          walked solo across India (Kanyakumari to Kashmir) and became the
-          youngest person in the world to do so.
-        </p>
-        <p>
-          He has been featured by Amazon Prime, The Hindu, The Indian Express,
-          Zee Network, Times of India, TEDx, Brut, Humans of Bombay, The Quint,
-          Radio Stations, ZEE, reputed universities, corporates, magazines, and
-          other media channels in India and abroad.
-        </p>
-        <p>
-          He says, "You can take a soldier out of the army but not the army out
-          of the soldier".
-        </p>
-      </>
-    )
-  },
-  {
-    id: '8',
+    id: '3',
     name: 'Kamala Maddali',
     profession: 'Author of "Becoming a Kamala"',
     socials: {
@@ -428,7 +390,45 @@ export const speakers = [
     )
   },
   {
-    id: '9',
+    id: '2',
+    name: 'Ronit Ranjan',
+    profession: 'Life and Executive Coach',
+    socials: {
+      linkedInURL: 'https://linkedin.com/in/ronit-ranjan-1971791b5',
+      instagramURL: 'https://instagram.com/_ronitranjan_'
+    },
+    image: require('../assets/speakers/ronit.jpg').default,
+    shortBio:
+      'Ronit Ranjan, an Ex-Army Cadet is a Life and Executive Coach, NLP Practitioner and Corporate Wellness Specialist. He has been featured by Amazon Prime, The Hindu, TEDx, Brut, Humans of Bombay, The Quint, reputed universities, corporates, magazines, and other media channels in India and abroad. He is also the author of the book “The Mighty Mustang”.',
+    longBio: (
+      <>
+        <p>
+          Ronit Ranjan Ex-Army Cadet is the author of the book “The Mighty
+          Mustang”. He is a Life and Executive Coach, NLP Practitioner,
+          Corporate Wellness Specialist.
+        </p>
+        <p>
+          Ronit is very passionate about Mental Health Awareness. He has raised
+          a petition to incorporate a mandatory mental health curriculum
+          (non-graded) in Indian schools. In support of the petition, Ronit
+          walked solo across India (Kanyakumari to Kashmir) and became the
+          youngest person in the world to do so.
+        </p>
+        <p>
+          He has been featured by Amazon Prime, The Hindu, The Indian Express,
+          Zee Network, Times of India, TEDx, Brut, Humans of Bombay, The Quint,
+          Radio Stations, ZEE, reputed universities, corporates, magazines, and
+          other media channels in India and abroad.
+        </p>
+        <p>
+          He says, "You can take a soldier out of the army but not the army out
+          of the soldier".
+        </p>
+      </>
+    )
+  },
+  {
+    id: '1',
     name: 'Aanya Wig',
     profession: 'Founder of Covid Fighters India',
     socials: {
