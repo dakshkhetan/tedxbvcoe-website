@@ -53,7 +53,7 @@ const Ticket = ({
 
           <div className='price'>
             <Fade delay={250}>
-              <h3>{price !== '0' ? `₹${price}` : 'FREE'}</h3>
+              <h3>{price}</h3>
             </Fade>
           </div>
         </div>

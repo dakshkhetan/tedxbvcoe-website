@@ -28,10 +28,21 @@
       // flex-wrap: wrap;
 
       width: fit-content;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      justify-items: center;
+
+      // display: grid;
+      // grid-template-columns: 1fr 1fr 1fr 1fr;
+      // justify-items: center;
       grid-gap: 15px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      width: 90%;
+      @media only screen and (max-width: 1700px) {
+        width: 100%;
+      }
 
       .ticket {
         width: 380px;
@@ -44,9 +55,9 @@
         overflow: hidden;
 
         // unform height of each ticket
-        height: 575px;
+        height: 625px;
         @media only screen and (max-width: 1700px) {
-          height: 490px;
+          height: 550px;
         }
         @media only screen and (max-width: 768px) {
           height: auto;
