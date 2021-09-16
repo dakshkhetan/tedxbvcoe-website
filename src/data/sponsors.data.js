@@ -3,6 +3,7 @@ export const sponsors = [
     key: '1',
     route: 'sponsor-1',
     name: 'Get Boarded',
+    type: 'Title Sponsor',
     website: 'https://getboarded.tech',
     image: require('../assets/sponsors/get-boarded.jpg').default
   },
@@ -10,6 +11,7 @@ export const sponsors = [
     key: '2',
     route: 'sponsor-2',
     name: 'MML Clothing',
+    type: 'Design Partner',
     website: 'https://instagram.com/clothingmml',
     image: require('../assets/sponsors/mml-clothing.jpg').default
   }

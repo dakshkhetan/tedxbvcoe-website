@@ -361,38 +361,68 @@ export const speakers = [
   },
   {
     id: '8',
-    name: 'Niyati Sharma',
-    profession: 'Founder of Pratisandhi Foundation',
+    name: 'Kamala Maddali',
+    profession: 'Author of "Becoming a Kamala"',
     socials: {
-      linkedInURL: 'https://linkedin.com/in/niyatisharma492',
-      instagramURL: 'https://instagram.com/niyatisharma492'
+      linkedInURL: 'https://linkedin.com/in/drkkmaddalihealthcollaborations/',
+      instagramURL: ''
     },
-    image: require('../assets/speakers/niyati.jpg').default,
+    image: require('../assets/speakers/kamala.jpg').default,
     shortBio:
-      'Niyati Sharma is the Founder and Executive Director of the Pratisandhi Foundation. Her team has positively impacted over 15,000 individuals through direct and indirect interventions. A published author, Niyati has released her book "Under The Carpet: The Sex Ed Everyone Needs" in 2021. Currently, she is an undergraduate student at the University of British Columbia.',
+      'Dr. Kamala Maddali is a clinically trained veterinarian who holds a doctorate in veterinary medicine and a doctorate in pharmacology. She is a precision medicine executive from Fortune 100 experience and has extensive knowledge in the field with over 20 years of experience implementing corporate strategic initiatives and has helped advance precision medicine over the last two decades. She has served as an Executive Advisor to cultivate artificial intelligence, digital health, and solutions centred on modern precision medicine. In 2021, Dr. Kamala Maddali was awarded Pharma Voice 2021 Top 100 most inspiring leaders in the life sciences and healthcare industry.',
     longBio: (
       <>
         <p>
-          Niyati Sharma is the Founder and Executive Director of Pratisandhi
-          Foundation, a student-led non-profit organization dedicated to the
-          sexual health and education of Indian adolescents and youth. Her team
-          has positively impacted over 15,000 individuals through direct and
-          indirect interventions. They have been featured by various media
-          platforms such as Femina India, Indian Express, NDTV, and The Quint,
-          among others. Most recently, Niyati was featured as a ‘30 under 30’
-          young entrepreneur at the i5 Sumit by IIM Indore.
+          Dr. Kamala Maddali is a clinically trained veterinarian who holds a
+          doctorate in veterinary medicine from the Sri Venkateswara Veterinary
+          University in India and a doctorate in pharmacology from the
+          University of Missouri-Columbia. Dr. Maddali has strong medical,
+          scientific as well as rare disease roots, which gives her an edge as a
+          visionary leader who fosters collaboration between medical, patient,
+          and healthcare innovation sectors.
         </p>
         <p>
-          A published author, Niyati has released her book “Under The Carpet:
-          The Sex Ed Everyone Needs” in 2021. She holds an International
-          Certificate of Knowledge in Sexual and Reproductive Healthcare from
-          the Faculty of Sexual and Reproductive Healthcare (FSRH) of the Royal
-          College of Obstetricians and Gynaecologists, along with being a
-          certified sexuality educator. She is also an incoming participant in
-          the upcoming cohort of the Sex Education Initiative Training by the
-          Teachers College, Columbia University, New York. Currently, Niyati is
-          an undergraduate student at the University of British Columbia,
-          Vancouver.
+          Dr. Maddali is a native of Andhra Pradesh, India. A precision medicine
+          executive at Fortune 100 and 500 companies like Merck & Co, Quintiles,
+          IQVIA, Quest Diagnostics, Dr. Maddali has extensive knowledge in the
+          field. With over 20 years of experience implementing corporate
+          strategic initiatives, she has helped advance precision medicine over
+          the last two decades. Among her expertise is Precision Medicine
+          including diagnostics such as biomarkers and companion diagnostics,
+          devices, therapeutics, recruitment of patients, patient engagement,
+          patient experience and empowerment. Several healthcare technology
+          companies have tapped Dr. Maddali to serve as an executive advisor to
+          cultivate artificial intelligence, digital health, and solutions
+          centered on modern precision medicine. With the increased interest in
+          patient centricity in clinical trials and clinical research, her
+          unique involvement with Patient Advocacy and support groups in
+          converging precision medicine, clinical trials and clinical research
+          could make a significant difference.
+        </p>
+        <p>
+          Whenever possible, Dr. Maddali wants to ensure the patient’s voice is
+          heard, and she strives to provide every patient with powerful tools
+          from science and innovation in order to improve global community
+          health. Her personal experience as a rare disease neuro – degenerative
+          patient with signs like Multiple Sclerosis and Parkinson’s makes her a
+          unique, empathic voice in precision medicine.
+        </p>
+        <p>
+          Dr. Maddali is a board and advisory board member for several
+          US/International based patient advocacy associations like “Paltown”,
+          Love Heals Cancer, Aarogya, Indo-US Rare disease organization, Adira
+          Foundation working to foster knowledge about cancer, rare disease
+          diagnosis and prevention, and neuro-degenerative disease management.
+          She has earned the trust of patients, oncologists, and KOLs by her
+          involvement in patient advocacy.
+        </p>
+        <p>
+          In 2021, Dr. Kamala Maddali was awarded Pharma Voice 2021 Top 100 Most
+          Inspiring Leaders in the Life Sciences and Healthcare Industry. The
+          award is prestigious and honorable recognition to be a part of a
+          select group of leaders, mentors, and visionaries in the Life Sciences
+          who inspire change across their organizations, including Fortune 100
+          and 500 companies.
         </p>
       </>
     )
