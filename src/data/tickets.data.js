@@ -66,11 +66,11 @@ export const ticketsDetails = [
   },
   {
     key: '4',
-    open: true,
+    open: false,
     category: 'Platinum',
     price: '₹599',
-    buttonId: 'platinum-access-btn',
-    razorpayPaymentId: 'pl_HxIMbNhxCkoKGe',
+    // buttonId: 'platinum-access-btn',
+    // razorpayPaymentId: 'pl_HxIMbNhxCkoKGe',
     // paymentLink: 'https://razorpay.com',
     description: (
       <>

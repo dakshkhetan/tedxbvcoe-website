@@ -15,15 +15,15 @@ const Ticket = ({
 }) => {
   useEffect(() => {
     if (buttonId) {
-      const Script1 = document.createElement('script');
-      const Form1 = document.getElementById(buttonId);
-      Script1.setAttribute(
+      const scriptEl = document.createElement('script');
+      const formEl = document.getElementById(buttonId);
+      scriptEl.setAttribute(
         'src',
         'https://checkout.razorpay.com/v1/payment-button.js'
       );
-      Script1.setAttribute('data-payment_button_id', razorpayPaymentId);
-      // Script.setAttribute('async', 'true');
-      Form1.appendChild(Script1);
+      scriptEl.setAttribute('data-payment_button_id', razorpayPaymentId);
+      // scriptEl.setAttribute('async', 'true');
+      formEl.appendChild(scriptEl);
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -67,7 +67,7 @@ const Ticket = ({
             <Fade delay={300}>
               {!open ? (
                 <>
-                  <button onClick={() => null}>Coming Soon</button>
+                  <button onClick={() => null}>Sold Out</button>
                 </>
               ) : category === 'Superfan' ? (
                 <button onClick={onClickHandler(category)}>Get Now</button>
