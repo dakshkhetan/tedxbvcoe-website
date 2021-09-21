@@ -14,19 +14,19 @@ export const sponsors = [
     type: 'Design Partner',
     website: 'https://instagram.com/clothingmml',
     image: require('../assets/sponsors/mml-clothing.jpg').default
+  },
+  {
+    key: '3',
+    route: 'sponsor-3',
+    name: "The Architect's Diary",
+    website: 'https://thearchitectsdiary.com',
+    image: require('../assets/sponsors/the-architect-diary.jpg').default
+  },
+  {
+    key: '4',
+    route: 'sponsor-4',
+    name: 'GrabOn',
+    website: 'https://www.grabon.in',
+    image: require('../assets/sponsors/grab-on.jpg').default
   }
-  // {
-  //   key: '3',
-  //   route: 'sponsor-3',
-  //   name: 'Sponsor 3',
-  //   website: 'https://Sponsor3.com',
-  //   image: require('../assets/sponsors/placeholder.png').default,
-  // },
-  // {
-  //   key: '4',
-  //   route: 'sponsor-4',
-  //   name: 'Sponsor 4',
-  //   website: 'https://Sponsor4.com',
-  //   image: require('../assets/sponsors/placeholder.png').default,
-  // }
 ];
