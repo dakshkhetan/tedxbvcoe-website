@@ -28,5 +28,12 @@ export const sponsors = [
     name: 'GrabOn',
     website: 'https://www.grabon.in',
     image: require('../assets/sponsors/grab-on.jpg').default
+  },
+  {
+    key: '5',
+    route: 'sponsor-5',
+    name: 'ALTF',
+    website: 'https://altfuture.pt',
+    image: require('../assets/sponsors/altf.jpg').default
   }
 ];
