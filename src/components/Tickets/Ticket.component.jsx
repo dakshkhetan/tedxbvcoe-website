@@ -16,13 +16,13 @@ const Ticket = ({
   useEffect(() => {
     if (buttonId) {
       const scriptEl = document.createElement('script');
-      const formEl = document.getElementById(buttonId);
       scriptEl.setAttribute(
         'src',
         'https://checkout.razorpay.com/v1/payment-button.js'
       );
       scriptEl.setAttribute('data-payment_button_id', razorpayPaymentId);
       // scriptEl.setAttribute('async', 'true');
+      const formEl = document.getElementById(buttonId);
       formEl.appendChild(scriptEl);
     }
 

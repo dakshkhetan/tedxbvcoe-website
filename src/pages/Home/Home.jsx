@@ -6,7 +6,7 @@ import About from '../../components/About/About.component';
 import Speakers from '../../components/Speakers/Speakers.component';
 import Sponsors from '../../components/Sponsors/Sponsors.component';
 // import SpeakerForm from '../../components/SpeakerForm/SpeakerForm.component';
-// import SponsorUs from '../../components/SponsorUs/SponsorUs.component';
+import SponsorUs from '../../components/SponsorUs/SponsorUs.component';
 import Tickets from '../../components/Tickets/Tickets.component';
 import FAQs from '../../components/FAQs/FAQs.component';
 import Team from '../../components/Team/Team.component';
@@ -26,13 +26,13 @@ const Home = () => {
     <div className='App'>
       <Hero />
       <About />
-      <Speakers />
       {/* <SpeakerForm /> */}
-      {/* <SponsorUs /> */}
+      <Speakers />
       <Tickets />
       <Sponsors />
-      <Team />
+      <SponsorUs />
       <FAQs />
+      <Team />
       <Contact />
     </div>
   );

@@ -5,6 +5,8 @@ import { animateScroll as scroll } from 'react-scroll';
 
 import './SpeakerForm.styles.scss';
 
+const registrationOpen = false;
+
 const SpeakerForm = () => {
   useEffect(() => {
     scroll.scrollToTop();
@@ -41,9 +43,13 @@ const SpeakerForm = () => {
 
         <Fade bottom delay={350}>
           <div className='btn-container'>
-            <span className='btn-link' onClick={onClickHandler}>
-              Register here
-            </span>
+            {registrationOpen ? (
+              <span className='btn-link' onClick={onClickHandler}>
+                Register here
+              </span>
+            ) : (
+              <span className='btn-link'>Applications Closed</span>
+            )}
           </div>
         </Fade>
       </div>

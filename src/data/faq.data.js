@@ -1,7 +1,7 @@
 export const FAQData = [
   {
     question: 'What will be the platform of the event?',
-    answer: 'Will be answered soon!',
+    answer: 'The event will be hosted on the platform "video.wiki".',
     open: false
   },
   {

@@ -9,6 +9,8 @@ import { sponsorship } from '../../data/sponsorship.data';
 
 import './SponsorUs.styles.scss';
 
+const registrationOpen = false;
+
 const SponsorUs = () => {
   useEffect(() => {
     scroll.scrollToTop();
@@ -40,9 +42,13 @@ const SponsorUs = () => {
 
         <Fade bottom delay={350}>
           <div className='btn-container'>
-            <span className='btn-link' onClick={onClickHandler}>
-              Apply now
-            </span>
+            {registrationOpen ? (
+              <span className='btn-link' onClick={onClickHandler}>
+                Apply now
+              </span>
+            ) : (
+              <span className='btn-link'>Applications are now closed</span>
+            )}
           </div>
         </Fade>
       </div>

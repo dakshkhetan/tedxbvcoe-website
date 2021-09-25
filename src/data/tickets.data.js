@@ -1,10 +1,10 @@
 export const ticketsDetails = [
   {
     key: '1',
-    open: true,
+    open: false,
     category: 'Superfan',
     price: 'FREE',
-    paymentLink: 'https://forms.gle/y6X54FyjX8dN7wrr7',
+    // paymentLink: 'https://forms.gle/y6X54FyjX8dN7wrr7',
     description: (
       <>
         <p>
@@ -18,11 +18,11 @@ export const ticketsDetails = [
   },
   {
     key: '2',
-    open: true,
+    open: false,
     category: 'Standard',
     price: '₹99',
-    buttonId: 'standard-access-btn',
-    razorpayPaymentId: 'pl_HxIEHE0ogNcy1Z',
+    // buttonId: 'standard-access-btn',
+    // razorpayPaymentId: 'pl_HxIEHE0ogNcy1Z',
     // paymentLink: 'https://razorpay.com',
     description: (
       <>
@@ -45,11 +45,11 @@ export const ticketsDetails = [
   },
   {
     key: '3',
-    open: true,
+    open: false,
     category: 'Premium',
     price: '₹299',
-    buttonId: 'premium-access-btn',
-    razorpayPaymentId: 'pl_HxIIBerzbgjVHW',
+    // buttonId: 'premium-access-btn',
+    // razorpayPaymentId: 'pl_HxIIBerzbgjVHW',
     // paymentLink: 'https://razorpay.com',
     description: (
       <>
@@ -91,11 +91,11 @@ export const ticketsDetails = [
   },
   {
     key: '5',
-    open: true,
+    open: false,
     category: 'International',
     price: '$14.99',
-    buttonId: 'international-access-btn',
-    razorpayPaymentId: 'pl_Hy9gGJmj07VuYn',
+    // buttonId: 'international-access-btn',
+    // razorpayPaymentId: 'pl_Hy9gGJmj07VuYn',
     // paymentLink: 'https://razorpay.com',
     description: (
       <>
